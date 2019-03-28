@@ -1,0 +1,41 @@
+[
+  {
+    "name": "Overview",
+    "sectionName": "overview",
+    "href": "/dashboard/overview",
+    "icon": "web_asset",
+    "active": true,
+    "subItems": [
+      {
+        "name": "platform",
+        "href": "/dashboard/overview/platform",
+        "useRoutes": true,
+        "sectionName": "overview",
+        "itemName": "platform",
+        "component": "components/dashboard/plugins/overview/StatusMonitor"
+      }
+    ]
+  },
+  {
+    "name": "Users",
+    "sectionName": "user-manager",
+    "href": "/dashboard/user-manager",
+    "icon": "account_circle",
+    "userGroup": [
+      "1"
+    ],
+    "subItems": [
+      {
+        "name": "List of users",
+        "href": "/dashboard/user-manager/user-list",
+        "useRoutes": true,
+        "sectionName": "user-manager",
+        "itemName": "user-list",
+        "component": "components/dashboard/plugins/users/UserListCard",
+        "userGroup": [
+          "1"
+        ]
+      }
+    ]
+  }
+]
