@@ -40,6 +40,7 @@ module.exports = {
       .use('vue-loader')
       .loader('url-loader')
       .end()
+
   },
   configureWebpack: config => {
     if (isProduction) {
@@ -71,7 +72,7 @@ module.exports = {
   },
   // use thread-loader for babel & TS in production build
   // enabled by default if the machine has more than 1 cores
-  parallel: require('os').cpus().length > 1,
+  parallel: false,
   // PWA 插件相关配置
   // see https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-pwa
   pwa: {},

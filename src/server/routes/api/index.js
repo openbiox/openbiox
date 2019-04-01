@@ -15,3 +15,4 @@ var router = express.Router()
 var assetsDir = config.assetsDir
 var distDir = config.distDir
 
+export default router
