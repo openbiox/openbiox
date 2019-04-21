@@ -4,7 +4,7 @@
       <v-btn color="white" flat round slot="activator" class='without-text-transform'>License</v-btn>
       <v-card>
         <v-card-title
-          class="headline blue lighten-1 license-box-title"
+          class="headline grey darken-2 license-box-title"
           primary-title
           dark
         >License and policy</v-card-title>

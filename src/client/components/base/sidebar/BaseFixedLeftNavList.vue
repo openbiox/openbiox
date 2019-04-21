@@ -2,9 +2,7 @@
   <v-list light one-line>
     <v-list-tile>
       <v-list-tile-content>
-        <v-list-tile-title>
           <span class="headline">openbiox v0.1.0</span>
-        </v-list-tile-title>
       </v-list-tile-content>
     </v-list-tile>
     <v-list-tile>

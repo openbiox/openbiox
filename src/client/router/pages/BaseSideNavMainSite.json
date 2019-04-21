@@ -7,18 +7,6 @@
       "href": "/home",
       "useRoutes": true,
       "sectionName": "home"
-    },
-    {
-      "name": "Dashboard",
-      "href": "/dashboard",
-      "useRoutes": true,
-      "sectionName": "dashboard"
-    },
-    {
-      "name": "About",
-      "href": "/about",
-      "useRoutes": true,
-      "sectionName": "about"
     }
   ]
 }]

@@ -9,6 +9,7 @@ import filters from './filters'
 import axios from 'axios'
 import VueSocketIO from 'vue-socket.io'
 import './permission' // permission control
+import './assets/css/global.css'
 
 Vue.use(Vuex)
 Vue.use(new VueSocketIO({

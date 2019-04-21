@@ -1,10 +1,11 @@
 <template>
-  <v-footer height="auto" color="primary lighten-1">
+  <v-footer height="auto" color="grey darken-3">
     <v-layout justify-center row wrap>
       <v-custom-license></v-custom-license>
-       <div v-for="(link, href) in links" :key="link">
+       <div v-for="(link, href) in links" :key="link" class="nav-div">
         <router-link v-if="link != 'Docs'"  :to="href" >
           <v-btn
+            dark
             flat
             round
             color="white"
@@ -12,6 +13,7 @@
           >{{ link }}</v-btn>
         </router-link>
         <v-btn v-else
+            dark
             flat
             round
             target="_blank"
@@ -20,7 +22,7 @@
             :href="href">{{ link }}</v-btn>
       </div>
       <v-flex
-        primary
+        dark
         lighten-2
         py-3
         text-xs-center

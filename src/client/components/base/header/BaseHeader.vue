@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="nav-div">
     <v-navigation-drawer
       class="gray lighten-5 elevation-4"
       v-model="sideNav"
@@ -11,22 +11,24 @@
     >
       <v-custom-side-bar app></v-custom-side-bar>
     </v-navigation-drawer>
-    <v-toolbar fixed app clipped-left>
-      <v-toolbar-side-icon @click.stop="sideNav = !sideNav"></v-toolbar-side-icon>
-      <v-toolbar-title>
-        <img :src="require('@/assets/logo.png')" height="30" style = "margin-top:10px;margin-right:15px">
+    <v-toolbar fixed app clipped-left dark>
+      <v-toolbar-side-icon @click.stop="sideNav = !sideNav" dark></v-toolbar-side-icon>
+      <v-toolbar-title style = "margin-right:15px">
+        <!--<img :src="require('@/assets/logo.png')" height="30" style = "margin-top:10px;margin-right:15px">-->
+        openbiox
       </v-toolbar-title>
-      <div v-for="(link, href) in links" :key="link">
-        <router-link v-if="link != 'Docs'"  :to="href" >
+      <div v-for="(link, href) in links" :key="link" >
+        <router-link v-if="link != 'Docs'" :to="href">
           <v-btn
-            color="black"
+            dark
             flat
             round
             class="without-text-transform"
             :class="isPageActive(link)"
           >{{ link }}</v-btn>
         </router-link>
-        <v-btn v-else  color="black"
+        <v-btn v-else
+            dark
             flat
             round
             class="without-text-transform"
@@ -116,16 +118,6 @@ export default {
   }
 }
 .main-nav-button-activated {
-  background: #d3d1d1;
-}
-div a {
-  text-decoration: none;
-  color: #000000;
-}
-div a:hover {
-  color: #000000;
-}
-.without-text-transform {
-  text-transform: none !important;
+  background: #434242;
 }
 </style>

@@ -8,7 +8,7 @@
           fab
           bottom
           right
-          color="blue lighten-1"
+          color="grey darken-4"
           @click="gotop"
           v-show="!hidden"
         >

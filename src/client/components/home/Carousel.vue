@@ -1,5 +1,8 @@
 <template>
-  <v-carousel>
+  <v-carousel
+    dark
+    height = "350"
+  >
     <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"></v-carousel-item>
   </v-carousel>
 </template>
@@ -10,16 +13,16 @@ export default {
     return {
       items: [
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
+          src: 'https://s2.ax1x.com/2019/04/22/EAuefI.jpg'
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg'
+          src: 'https://s2.ax1x.com/2019/04/22/EkqilT.jpg'
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg'
+          src: 'https://s2.ax1x.com/2019/04/22/EkHSBj.jpg'
         },
         {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
+          src: 'https://s2.ax1x.com/2019/04/22/EkHPNq.jpg'
         }
       ]
     }

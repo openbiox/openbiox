@@ -11,7 +11,7 @@
         <v-list-tile-title>{{ items.name }}</v-list-tile-title>
       </v-list-tile>
       <div v-for="(subitems, key2) in items.subItems" :key="key2">
-        <div v-if="!subitems.subItems && subitems.useRoutes" class="v-custom-btn ripple">
+        <div v-if="!subitems.subItems && subitems.useRoutes" class="v-custom-btn ripple nav-div">
           <router-link :to="subitems.href">
             <v-list-tile>
               <v-list-tile-action>
@@ -30,7 +30,7 @@
             </v-list-tile>
           </router-link>
         </div>
-        <div v-else-if="!subitems.subItems && !subitems.useRoutes" class="v-custom-btn ripple">
+        <div v-else-if="!subitems.subItems && !subitems.useRoutes" class="v-custom-btn ripple nav-div">
           <v-list-tile :href="subitems.href" :target="subitems.target">
             <v-list-tile-action>
               <v-icon>{{ subitems.icon }}</v-icon>
