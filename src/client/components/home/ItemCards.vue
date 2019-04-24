@@ -7,60 +7,64 @@
           xs12
           md4
         >
-          <v-item style="margin:5px">
-            <v-card
-              slot-scope="{ active, toggle }"
-              :color="active ? 'gray' : ''"
-              class="d-flex align-center"
-              dark
-              height="364"
-              @click="toggle"
+          <v-hover>
+            <v-item
+              slot-scope="{ hover }"
             >
-              <v-scroll-y-transition>
-                <div
-                  v-if="active && item.activeText"
-                  class="display-1 text-xs-center"
-                >
-                  
-                  <v-btn v-if="item.activeHref" 
-                  color="info"
-                  round
-                  large
-                  :href="item.activeHref" 
-                  target="_blank"
-                  class="display-1 without-text-transform"
-                  >{{ item.activeText }}</v-btn>
-                  <div v-else>{{ item.activeText }}</div>
-                  
-                </div>
-                <div
-                  v-else-if="active && item.activeSrc"
-                >
-                  <img :src="item.activeSrc">
-                </div>
-                <div
-                  v-else-if="item.disactiveText"
-                  class="display-1 text-xs-center"
-                >
-                  <v-btn v-if="item.disactiveHref"
-                  color="info"
-                  round
-                  class="display-1 without-text-transform"
-                  :href="item.disactiveHref"
-                  large
-                  flat
-                  target="_blank"
-                  >{{ item.disactiveText }}</v-btn>
-                  <div v-else>{{ item.disactiveText }}</div>
-                </div>
-                <div
-                  v-else-if="item.disactiveSrc"
-                >
-                <img :src="item.disactiveSrc" width="100%" height="100%">
-                </div>
-              </v-scroll-y-transition>
-            </v-card>
-          </v-item>
+              <v-card
+                slot-scope="{ active, toggle }"
+                :color="active ? 'gray' : ''"
+                :class="`elevation-${hover ? 24 : 2}`"
+                class="d-flex align-center"
+                dark
+                height="98%"
+                @click="toggle"
+                style="margin:2px;margin-bottom:-1.5px"
+              >
+                <v-scroll-y-transition>
+                  <div
+                    v-if="active && item.activeText"
+                    class="display-1 text-xs-center"
+                  >
+                    <v-btn v-if="item.activeHref"
+                    color="info"
+                    round
+                    large
+                    :href="item.activeHref"
+                    target="_blank"
+                    class="display-1 without-text-transform"
+                    >{{ item.activeText }}</v-btn>
+                    <div v-else>{{ item.activeText }}</div>
+                  </div>
+                  <div
+                    v-else-if="active && item.activeSrc"
+                  >
+                    <img :src="item.activeSrc">
+                  </div>
+                  <div
+                    v-else-if="item.disactiveText"
+                    class="display-1 text-xs-center"
+                  >
+                    <v-btn v-if="item.disactiveHref"
+                    color="info"
+                    round
+                    class="display-1 without-text-transform"
+                    :href="item.disactiveHref"
+                    large
+                    flat
+                    target="_blank"
+                    >{{ item.disactiveText }}</v-btn>
+                    <div v-else>{{ item.disactiveText }}</div>
+                  </div>
+                  <div
+                    v-else-if="item.disactiveSrc"
+                  >
+                  <img :src="item.disactiveSrc" width="100%" height="362px">
+                  </div>
+                </v-scroll-y-transition>
+              </v-card>
+            </v-item>
+          </v-hover>
         </v-flex>
       </v-layout>
   </v-item-group>
