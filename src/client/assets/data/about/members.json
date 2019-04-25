@@ -1,10 +1,50 @@
 [
 	{
 		"id": 1,
-		"name": "Jianfeng Li",
-		"degree": "M.D.",
-		"description": "UI design, database design and IT operations.",
-		"avater": "ljf.jpg",
+		"name": "Jianfeng",
+		"degree": "Phd.",
+		"description": "Sponsor, core developer, and administrator",
+		"avater": "https://s2.ax1x.com/2019/04/26/EmSA8U.jpg",
 		"href": "https://life2cloud.com"
+	},
+	{
+		"id": 2,
+		"name": "Hailuan Zeng",
+		"degree": "Phd.",
+		"description": "Sponsor, core developer and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/26/EmSaVI.png",
+		"href": "http://hellen.life2cloud.com"
+	},
+	{
+		"id": 3,
+		"name": "Yuting Dai",
+		"degree": "Phd.",
+		"description": "Sponsor, core developer and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/26/EmSozF.png",
+		"href": "http://github.com/ytdai"
+	},
+	{
+		"id": 4,
+		"name": "Jianming Zeng",
+		"degree": "Phd.",
+		"description": "Sponsor and core developer",
+		"avater": "https://s2.ax1x.com/2019/04/26/EmpPLd.png",
+		"href": "http://www.bio-info-trainee.com"
+	},
+	{
+		"id": 5,
+		"name": "Shixiang Wang",
+		"degree": "Phd.",
+		"description": "Core developer and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/26/EmpnSS.png",
+		"href": "https://www.jianshu.com/u/b6608e27dc74"
+	},
+	{
+		"id": 6,
+		"name": "Yang Yang",
+		"degree": "Phd.",
+		"description": "Core developer and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/26/EmpMLj.png",
+		"href": "http://www.bio-info-trainee.com"
 	}
 ]

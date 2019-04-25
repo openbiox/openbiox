@@ -14,11 +14,12 @@ export default {
 
 <style scoped>
 #nav-banner {
-  height: 250px;
-  background: #3b7bee;
-  padding-top: 90px;
+  height: 350px;
+  background:url(https://s2.ax1x.com/2019/04/25/Eevi4O.jpg) no-repeat left top;
+  padding-top: 140px;
   font-size: 40px;
   color: white;
   text-align: center;
+  box-shadow: 2px 2px 2px #0c0c0c;
 }
 </style>

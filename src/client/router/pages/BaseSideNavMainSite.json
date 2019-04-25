@@ -7,6 +7,12 @@
       "href": "/home",
       "useRoutes": true,
       "sectionName": "home"
+    },
+    {
+      "name": "About",
+      "href": "/about",
+      "useRoutes": true,
+      "sectionName": "home"
     }
   ]
 }]

@@ -8,41 +8,11 @@
           <br>
         </v-flex>
       </v-layout>
+      <b-img-card :img="imgData" />
       <v-layout text-xs-center wrap justify-center align-center row>
         <v-flex xs12>
-          <v-tabs
-            v-model="aboutActive"
-            color="blue lighten-2"
-            dark
-            slider-color="yellow"
-            class="elevation-4"
-          >
-            <v-tab
-              ripple
-              text-xs-center
-              v-for="(item, key) in aboutTabsContents"
-              :key="key"
-            >{{item.tabName}}</v-tab>
-            <v-tab-item
-              v-for="(item, key) in aboutTabsContents"
-              :key="key"
-              scroll-target
-              style="max-height: 1400px"
-              class="scroll-y"
-            >
-              <v-card flat>
-                <b-markdown
-                  class="markdown-body mainText text-xs-justify"
-                  v-if="item.tabText != null"
-                  :text="item.tabText"
-                ></b-markdown>
-              </v-card>
-            </v-tab-item>
-          </v-tabs>
-        </v-flex>
-        <v-flex xs12>
           <br>
-          <h2>Team members and all contributors to openbiox</h2>
+          <h2>Team members</h2>
         </v-flex>
         <v-flex xs12>
           <v-divider></v-divider>
@@ -73,45 +43,16 @@
 
 <script>
 import members from '@/assets/data/about/members.json'
-import articlesAbout from '@/assets/data/about/article/meta.json'
-import '@/assets/css/markdown.css'
+import imgData from '@/assets/data/about/imgs.json'
 
 export default {
   components: {
-    'b-markdown': () => import('@/components/base/markdown/BaseMarkdown')
-  },
-  created () {
-    for (var i = 0; i < this.aboutTabsContents.length; i++) {
-      this.getFirstTabs(i)
-    }
-    for (var j = 0; j < this.members.length; j++) {
-      try {
-        this.members[j].avater = require('@/assets/img/members/' +
-          members[j].avater)
-      } catch (err) {
-        return 0
-      }
-    }
+    'b-img-card': () => import('@/components/base/card/BaseHoverImgCard')
   },
   data () {
     return {
-      aboutActive: null,
-      aboutTabsContents: articlesAbout,
-      members: members
-    }
-  },
-  methods: {
-    getFirstTabs: function (i) {
-      var vm = this
-      if (
-        vm.aboutTabsContents[i].tabText == null &&
-        vm.aboutTabsContents[i].tabMd != null
-      ) {
-        var j = i
-        this.$ajax.get('/api/get/about/article/' + i).then(function (response) {
-          vm.aboutTabsContents[j].tabText = response.data
-        })
-      }
+      members: members,
+      imgData: imgData
     }
   }
 }

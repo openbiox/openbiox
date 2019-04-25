@@ -15,4 +15,9 @@ var router = express.Router()
 var assetsDir = config.assetsDir
 var distDir = config.distDir
 
+router.get('/*', function (req, res, next) {
+  // res.render('index', { title: 'Express' });
+  res.sendFile(path.join(distDir, 'index.html'))
+})
+
 export default router

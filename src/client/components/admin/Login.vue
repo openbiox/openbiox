@@ -1,10 +1,10 @@
 <template>
-  <v-container id="login" style="min-height:926px" v-show="show">
+  <v-container id="login" style="min-height:724px" v-show="show">
     <v-layout text-xs-center wrap justify-center align-center>
       <v-flex xs12 md12 style="margin-bottom:80px">
         <h1>
         </h1>
-        <h1>A Community-driven Bioinformatics Innovation Collaboration Group in China.</h1>
+        <h1>A community-driven bioinformatics innovation collaboration group in China.</h1>
       </v-flex>
       <v-flex xs12 md7>
         <v-card class="elevation-12">
