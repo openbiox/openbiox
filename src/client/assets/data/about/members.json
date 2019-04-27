@@ -12,7 +12,7 @@
 		"name": "Hailuan Zeng",
 		"degree": "Phd.",
 		"description": "Sponsor, core developer and project manager",
-		"avater": "https://s2.ax1x.com/2019/04/26/EmSaVI.png",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBBhF.jpg",
 		"href": "http://hellen.life2cloud.com"
 	},
 	{
@@ -20,7 +20,7 @@
 		"name": "Yuting Dai",
 		"degree": "Phd.",
 		"description": "Sponsor, core developer and project manager",
-		"avater": "https://s2.ax1x.com/2019/04/26/EmSozF.png",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuB0tU.jpg",
 		"href": "http://github.com/ytdai"
 	},
 	{
@@ -28,7 +28,7 @@
 		"name": "Jianming Zeng",
 		"degree": "Phd.",
 		"description": "Sponsor and core developer",
-		"avater": "https://s2.ax1x.com/2019/04/26/EmpPLd.png",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBrp4.jpg",
 		"href": "http://www.bio-info-trainee.com"
 	},
 	{
@@ -36,7 +36,7 @@
 		"name": "Shixiang Wang",
 		"degree": "Phd.",
 		"description": "Core developer and project manager",
-		"avater": "https://s2.ax1x.com/2019/04/26/EmpnSS.png",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBwkT.jpg",
 		"href": "https://www.jianshu.com/u/b6608e27dc74"
 	},
 	{
@@ -44,7 +44,95 @@
 		"name": "Yang Yang",
 		"degree": "Phd.",
 		"description": "Core developer and project manager",
-		"avater": "https://s2.ax1x.com/2019/04/26/EmpMLj.png",
-		"href": "http://www.bio-info-trainee.com"
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBNmq.jpg",
+		"href": "http://github.com/yangyangclover"
+	},
+	{
+		"id": 7,
+		"name": "Fei Zhao",
+		"degree": "Phd.",
+		"description": "Core developer, and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBYXn.jpg",
+		"href": "http://kaopubear.top"
+	},
+	{
+		"id": 8,
+		"name": "Chenyang Hong",
+		"degree": "Phd.",
+		"description": "Core developer and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuDDVP.jpg",
+		"href": "http://github.com/xxmen"
+	},
+	{
+		"id": 9,
+		"name": "Peng Wu",
+		"degree": "Phd.",
+		"description": "Core developer and project manager",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBltS.jpg",
+		"href": "http://github.com/wupengss"
+	},
+	{
+		"id": 10,
+		"name": "Jinzeng Wang",
+		"degree": "M.S.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBGlj.jpg",
+		"href": "http://github.com/Jinzeng-Wang"
+	},
+	{
+		"id": 11,
+		"name": "Runzhe Li",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuB8pQ.jpg",
+		"href": "http://github.com/rafael1314"
+	},
+	{
+		"id": 12,
+		"name": "Haitao Wang",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBU00.jpg",
+		"href": "http://github.com/xchromosome219"
+	},
+	{
+		"id": 13,
+		"name": "Qingbo Zhao",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBa7V.jpg",
+		"href": "http://github.com/zhaoqingbo1993"
+	},
+	{
+		"id": 14,
+		"name": "Qi Wang",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuB1fg.jpg",
+		"href": "http://github.com/wang-qi-wang"
+	},
+	{
+		"id": 15,
+		"name": "Haohao Zhang",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBQk8.jpg",
+		"href": "http://github.com/hyacz"
+	},
+	{
+		"id": 16,
+		"name": "Wenlong Shen",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBJ6s.jpg",
+		"href": "http://github.com/WenlongShen"
+	},
+	{
+		"id": 17,
+		"name": "Jiachen Lou",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/04/27/EuBs1J.jpg",
+		"href": "http://github.com/ChrisLou-bioinfo"
 	}
 ]

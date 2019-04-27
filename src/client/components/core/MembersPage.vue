@@ -12,12 +12,12 @@
       <v-layout text-xs-center wrap justify-center align-center row>
         <v-flex xs12>
           <br>
-          <h2>Team members</h2>
+          <h2>Committee members</h2>
         </v-flex>
         <v-flex xs12>
           <v-divider></v-divider>
         </v-flex>
-        <v-flex xs12 md4 v-for="member in members" v-bind:key="member.id">
+        <v-flex xs12 md4 v-for="member in members.slice(membersStart,membersEnd)" v-bind:key="member.id">
           <a class="memberHref" :href="member.href" target="_blank">
             <v-hover>
               <v-card
@@ -36,6 +36,13 @@
             </v-hover>
           </a>
         </v-flex>
+        <br>
+        <v-flex xs12 md12>
+          <v-pagination
+            v-model="membersPage"
+            :length="Math.ceil(this.members.length / this.numEachPage)"
+          ></v-pagination>
+        </v-flex>
       </v-layout>
     </v-container>
   </div>
@@ -52,7 +59,25 @@ export default {
   data () {
     return {
       members: members,
-      imgData: imgData
+      imgData: imgData,
+      membersPage: 1,
+      numEachPage: 6
+    }
+  },
+  computed: {
+    membersStart () {
+      const membersStart = ((this.membersPage - 1) * this.numEachPage).toFixed()
+      return (Number(membersStart))
+    },
+    membersEnd () {
+      if (this.membersStart) {
+        if ((this.members.length - this.membersStart) < this.numEachPage) {
+          return (this.members.length)
+        }
+        return (this.membersStart + this.numEachPage)
+      } else {
+        return (this.numEachPage)
+      }
     }
   }
 }

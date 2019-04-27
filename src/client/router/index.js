@@ -53,13 +53,13 @@ var routes = [{
   }
 },
 {
-  path: '/about',
-  name: 'About',
-  component: () => import('@/components/core/AboutPage'),
+  path: '/members',
+  name: 'Members',
+  component: () => import('@/components/core/MembersPage'),
   meta: {
-    title: 'About Us',
+    title: 'Members',
     useBanner: true,
-    pageName: 'About'
+    pageName: 'Members'
   }
 }
 ]

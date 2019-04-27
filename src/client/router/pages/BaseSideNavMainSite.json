@@ -9,10 +9,10 @@
       "sectionName": "home"
     },
     {
-      "name": "About",
-      "href": "/about",
+      "name": "Members",
+      "href": "/members",
       "useRoutes": true,
-      "sectionName": "home"
+      "sectionName": "members"
     }
   ]
 }]
