@@ -3,7 +3,7 @@
     <v-custom-carousel/>
     <v-container>
       <v-layout align-start justify-space-around row wrap>
-        <v-flex xs6 mb6>
+        <v-flex xs12 md6>
           <div>
             <h1 class="display-2 font-weight-bold blue-color">
               {{ homeAboutTitle }}
@@ -13,7 +13,7 @@
             </div>
           </div>
         </v-flex>
-        <v-flex xs6 mb6>
+        <v-flex xs12 md6>
           <div >
             <v-custom-introduction-card
               :src="customIntroductionCards[0].src"
@@ -24,7 +24,7 @@
             />
           </div>
         </v-flex>
-        <v-flex xs12 mb12>
+        <v-flex xs12 md12>
           <br/>
         </v-flex>
       </v-layout>
@@ -45,7 +45,7 @@
         </v-parallax>
       </v-hover>
       <v-custom-timeline />
-      <v-custom-item-cards/>
+      <v-custom-item-cards />
       <br/>
       <v-layout align-start justify-space-around row wrap>
         <v-flex xs12 mb12>

@@ -43,6 +43,9 @@
             :length="Math.ceil(this.members.length / this.numEachPage)"
           ></v-pagination>
         </v-flex>
+        <v-flex xs12 md12>
+          <v-contribution-tb />
+        </v-flex>
       </v-layout>
     </v-container>
   </div>
@@ -54,7 +57,8 @@ import imgData from '@/assets/data/about/imgs.json'
 
 export default {
   components: {
-    'b-img-card': () => import('@/components/base/card/BaseHoverImgCard')
+    'b-img-card': () => import('@/components/base/card/BaseHoverImgCard'),
+    'v-contribution-tb': () => import('@/components/members/ContributionCard')
   },
   data () {
     return {
