@@ -2,8 +2,8 @@
   <v-item-group>
       <v-layout wrap>
         <v-flex
-          v-for="item in cardItems"
-          :key="item"
+          v-for="(item, index) in cardItems"
+          :key="index"
           xs4
           md4
         >

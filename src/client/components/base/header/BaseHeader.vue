@@ -17,14 +17,15 @@
         <!--<img :src="require('@/assets/logo.png')" height="30" style = "margin-top:10px;margin-right:15px">-->
         <a href="/" style="color:white"><span>openbiox</span></a>
       </v-toolbar-title>
-      <div v-for="(link, href) in links" :key="link" >
-        <router-link v-if="link != 'Docs'" :to="href">
+      <div v-for="(link, href, index) in links" :key="index" >
+        <router-link v-if="!isExternalSite(link)" :to="href">
           <v-btn
             dark
             flat
             round
             class="without-text-transform"
             :class="isPageActive(link)"
+            style="color:white"
           >{{ link }}</v-btn>
         </router-link>
         <v-btn v-else
@@ -34,6 +35,7 @@
             class="without-text-transform"
             :class="isPageActive(link)"
             target="_blank"
+            style="color:white"
             :href="href">{{ link }}</v-btn>
       </div>
       <v-spacer></v-spacer>
@@ -52,6 +54,7 @@
 import headerNavLinks from '@/router/pages/BaseHeaderNav'
 import { logoutCleanLocalStoreage } from '@/utils/auth'
 import { mapMutations } from 'vuex'
+import externalSite from '@/router/pages/ExternalSites.json'
 
 export default {
   name: 'b-nav',
@@ -63,7 +66,8 @@ export default {
     return {
       sideNav: false,
       pageName: document.pageName,
-      links: headerNavLinks
+      links: headerNavLinks,
+      externalSite: externalSite
     }
   },
   computed: {
@@ -106,6 +110,14 @@ export default {
             }
           })
       }
+    },
+    isExternalSite: function (link) {
+      for (const i in this.externalSite) {
+        if (link === this.externalSite[i]) {
+          return true
+        }
+      }
+      return false
     }
   }
 }

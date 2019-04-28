@@ -13,6 +13,13 @@
       "href": "/members",
       "useRoutes": true,
       "sectionName": "members"
+    },
+    {
+      "name": "Wiki",
+      "href": "/wiki",
+      "useRoutes": false,
+      "target": "_blank",
+      "sectionName": "wiki"
     }
   ]
 }]

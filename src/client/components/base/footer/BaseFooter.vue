@@ -2,8 +2,8 @@
   <v-footer height="auto" color="grey darken-3">
     <v-layout justify-center row wrap>
       <v-custom-license></v-custom-license>
-       <div v-for="(link, href) in links" :key="link" class="nav-div">
-        <router-link v-if="link != 'Docs'"  :to="href" >
+       <div v-for="(link, href, index) in links" :key="index" class="nav-div">
+        <router-link v-if="!isExternalSite(link)"  :to="href" >
           <v-btn
             dark
             flat
@@ -38,6 +38,8 @@
 
 <script>
 import footerNavLinks from '@/router/pages/BaseFooterNav'
+import externalSite from '@/router/pages/ExternalSites.json'
+
 export default {
   name: 'BaseFooter',
   components: {
@@ -46,7 +48,18 @@ export default {
   data () {
     return {
       msg: 'Welcome to Your Vue.js App',
-      links: footerNavLinks
+      links: footerNavLinks,
+      externalSite: externalSite
+    }
+  },
+  methods: {
+    isExternalSite: function (link) {
+      for (const i in this.externalSite) {
+        if (link === this.externalSite[i]) {
+          return true
+        }
+      }
+      return false
     }
   }
 }
