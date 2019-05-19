@@ -134,5 +134,54 @@
 		"description": "Core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBs1J.jpg",
 		"href": "http://github.com/ChrisLou-bioinfo"
-	}
+	},
+	{
+		"id": 18,
+		"name": "Qiyun Liang",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/05/19/EjX71f.jpg",
+		"href": "http://github.com/2015qyliang"
+	},
+	{
+		"id": 19,
+		"name": "Kai Liao",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/05/19/EjXT9P.jpg",
+		"href": "http://github.com/eyeliaokai"
+	},
+	{
+		"id": 20,
+		"name": "Yi Xiong",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/05/19/EjXHc8.jpg",
+		"href": "http://github.com/Byronxy"
+	},
+	{
+		"id": 21,
+		"name": "Yiguang Wang",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/05/19/EjXOBQ.jpg",
+		"href": "http://github.com/Yiguan"
+	},
+	{
+		"id": 22,
+		"name": "Chaoran Yu",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/05/19/EjXLng.jpg",
+		"href": "http://github.com/yuchaoran"
+	},
+	{
+		"id": 23,
+		"name": "Ming Jia",
+		"degree": "Phd.",
+		"description": "Core developer",
+		"avater": "https://s2.ax1x.com/2019/05/19/EjXbjS.jpg",
+		"href": "http://github.com/jiamin2010"
+  }
 ]
+
