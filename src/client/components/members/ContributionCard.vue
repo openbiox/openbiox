@@ -1,5 +1,5 @@
 <template>
-  <b-expand-card title="Table of openbiox members" subtitle="Basic table" :usedComponent="usedComponnent"/>
+  <b-expand-card title="Table of openbiox members" subtitle="Registered members" :usedComponent="usedComponnent"/>
 </template>
 
 <script>

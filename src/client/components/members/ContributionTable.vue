@@ -52,7 +52,7 @@
                 </td>
                 <td>{{ props.item.id }}</td>
                 <td>{{ props.item.name }}</td>
-                <td>{{ props.item.email }}</td>
+                <td>{{ props.item.title }}</td>
                 <td>{{ momentFormat(props.item.join_date) }}</td>
               </tr>
             </template>
@@ -74,6 +74,7 @@
 
 <script>
 import moment from 'moment'
+import membersData from '@/assets/data/about/members.json'
 
 export default {
   data () {
@@ -87,7 +88,7 @@ export default {
       loading: true,
       pagination: {
         sortBy: 'id',
-        descending: 'asc',
+        descending: null,
         rowsPerPage: 5,
         totalItems: null
       },
@@ -100,7 +101,7 @@ export default {
           value: 'id'
         },
         { text: 'Name', value: 'name', align: 'center' },
-        { text: 'Email', value: 'email', align: 'center' },
+        { text: 'Title', value: 'title', align: 'center' },
         {
           text: 'Join Date',
           value: 'join_date',
@@ -116,14 +117,7 @@ export default {
   created () {
     this.loading = true
     this.loading = false
-    this.tableData = [
-      {
-        id: 1,
-        name: 'Jianfeng',
-        email: 'lee_jianfeng@openbiox.org',
-        join_date: '2019-03-03'
-      }
-    ]
+    this.tableData = membersData
     this.pagination.totalItems = this.tableData.length
   },
   methods: {

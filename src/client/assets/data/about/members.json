@@ -1,187 +1,762 @@
 [
 	{
-		"id": 1,
-		"name": "Jianfeng",
+		"id": "1",
+		"name": "Jianfeng Li",
 		"degree": "Phd.",
-		"description": "Sponsor, core developer, and administrator",
+		"title": "sponsor, committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/26/EmSA8U.jpg",
-		"href": "https://life2cloud.com"
+		"href": "https://life2cloud.com",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "lee_jianfeng@openbiox.org"
 	},
 	{
-		"id": 2,
+		"id": "2",
 		"name": "Hailuan Zeng",
 		"degree": "Phd.",
-		"description": "Sponsor, core developer and project manager",
+		"title": "sponsor, committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBBhF.jpg",
-		"href": "http://hellen.life2cloud.com"
+		"href": "https://hellen.life2cloud.com",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Fudan University",
+		"email": "hellenzz@openbiox.org"
 	},
 	{
-		"id": 3,
+		"id": "3",
 		"name": "Yuting Dai",
 		"degree": "Phd.",
-		"description": "Sponsor, core developer and project manager",
+		"title": "sponsor, committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuB0tU.jpg",
-		"href": "http://github.com/ytdai"
+		"href": "https://github.com/ytdai",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "daiyuting@openbiox.org"
 	},
 	{
-		"id": 4,
+		"id": "4",
 		"name": "Jianming Zeng",
 		"degree": "Phd.",
-		"description": "Sponsor and core developer",
+		"title": "sponsor, committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBrp4.jpg",
-		"href": "http://www.bio-info-trainee.com"
+		"href": "https://www.bio-info-trainee.com",
+		"join_date": "2019/03/03",
+		"Institute/Company": "University of Macau",
+		"email": "jmzeng1314@openbiox.org"
 	},
 	{
-		"id": 5,
+		"id": "5",
 		"name": "Shixiang Wang",
 		"degree": "Phd.",
-		"description": "Core developer and project manager",
+		"title": "committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBwkT.jpg",
-		"href": "https://www.jianshu.com/u/b6608e27dc74"
+		"href": "https://www.jianshu.com/u/b6608e27dc74",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanghai University of Science and Technology",
+		"email": "shixiangwang@openbiox.org"
 	},
 	{
-		"id": 6,
+		"id": "6",
 		"name": "Yang Yang",
 		"degree": "Phd.",
-		"description": "Core developer and project manager",
+		"title": "committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBNmq.jpg",
-		"href": "http://github.com/yangyangclover"
+		"href": "https://github.com/yangyangclover",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Huazhong University of Science and Technology",
+		"email": "yangyang@openbiox.org"
 	},
 	{
-		"id": 7,
+		"id": "7",
 		"name": "Fei Zhao",
 		"degree": "Phd.",
-		"description": "Core developer, and project manager",
+		"title": "committe member, core developer, and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBYXn.jpg",
-		"href": "http://kaopubear.top"
+		"href": "https://kaopubear.top",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese Academy of Sciences",
+		"email": "zhaofei@openbiox.org"
 	},
 	{
-		"id": 8,
+		"id": "8",
 		"name": "Chenyang Hong",
 		"degree": "Phd.",
-		"description": "Core developer and project manager",
+		"title": "committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuDDVP.jpg",
-		"href": "http://github.com/xxmen"
+		"href": "https://github.com/xxmen",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese University of Hong Kong",
+		"email": "cyhong@openbiox.org"
 	},
 	{
-		"id": 9,
+		"id": "9",
 		"name": "Peng Wu",
 		"degree": "Phd.",
-		"description": "Core developer and project manager",
+		"title": "committe member, core developer and project manager",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBltS.jpg",
-		"href": "http://github.com/wupengss"
+		"href": "https://github.com/wupengss",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese University of Hong Kong",
+		"email": "wupeng@openbiox.org"
 	},
 	{
-		"id": 10,
+		"id": "10",
 		"name": "Jinzeng Wang",
 		"degree": "M.S.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBGlj.jpg",
-		"href": "http://github.com/Jinzeng-Wang"
+		"href": "https://github.com/Jinzeng-Wang",
+		"join_date": "2019/03/03",
+		"Institute/Company": "National Translational Medicine Center (Shanghai)",
+		"email": "jzwang@openbiox.org"
 	},
 	{
-		"id": 11,
+		"id": "11",
 		"name": "Runzhe Li",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuB8pQ.jpg",
-		"href": "http://github.com/rafael1314"
+		"href": "https://github.com/rafael1314",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Tsinghua University",
+		"email": "lirz@openbiox.org"
 	},
 	{
-		"id": 12,
+		"id": "12",
 		"name": "Haitao Wang",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBU00.jpg",
-		"href": "http://github.com/xchromosome219"
+		"href": "https://github.com/xchromosome219",
+		"join_date": "2019/03/03",
+		"Institute/Company": "National Cancer Centre Singapore",
+		"email": "ht.wang@openbiox.org"
 	},
 	{
-		"id": 13,
+		"id": "13",
 		"name": "Qingbo Zhao",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBa7V.jpg",
-		"href": "http://github.com/zhaoqingbo1993"
+		"href": "https://github.com/zhaoqingbo1993",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "zhaoqingbo@openbiox.org"
 	},
 	{
-		"id": 14,
+		"id": "14",
 		"name": "Qi Wang",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuB1fg.jpg",
-		"href": "http://github.com/wang-qi-wang"
+		"href": "https://github.com/wang-qi-wang",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Baiqu",
+		"email": "wangqi_jg@openbiox.org"
 	},
 	{
-		"id": 15,
+		"id": "15",
 		"name": "Haohao Zhang",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBQk8.jpg",
-		"href": "http://github.com/hyacz"
+		"href": "https://github.com/hyacz",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Wuhan University of Technology",
+		"email": "zhanghh@openbiox.org"
 	},
 	{
-		"id": 16,
+		"id": "16",
 		"name": "Wenlong Shen",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBJ6s.jpg",
-		"href": "http://github.com/WenlongShen"
+		"href": "https://github.com/WenlongShen",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Military academy",
+		"email": "wenlongshen@openbiox.org"
 	},
 	{
-		"id": 17,
+		"id": "17",
 		"name": "Jiachen Lou",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBs1J.jpg",
-		"href": "http://github.com/ChrisLou-bioinfo"
+		"href": "https://github.com/ChrisLou-bioinfo",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Dalian Medical University",
+		"email": "lou_jiacheng@openbiox.org"
 	},
 	{
-		"id": 18,
+		"id": "18",
 		"name": "Qiyun Liang",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/05/19/EjX71f.jpg",
-		"href": "http://github.com/2015qyliang"
+		"href": "https://github.com/2015qyliang",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shan Dong University",
+		"email": "qyliang@openbiox.org"
 	},
 	{
-		"id": 19,
+		"id": "19",
 		"name": "Kai Liao",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXT9P.jpg",
-		"href": "http://github.com/eyeliaokai"
+		"href": "https://github.com/eyeliaokai",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Central South University",
+		"email": "eyeliaokai@openbiox.org"
 	},
 	{
-		"id": 20,
+		"id": "20",
 		"name": "Yi Xiong",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXHc8.jpg",
-		"href": "http://github.com/Byronxy"
+		"href": "https://github.com/Byronxy",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Central South University",
+		"email": "neuroxiong@openbiox.org"
 	},
 	{
-		"id": 21,
+		"id": "21",
 		"name": "Yiguang Wang",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXOBQ.jpg",
-		"href": "http://github.com/Yiguan"
+		"href": "https://github.com/Yiguan",
+		"join_date": "2019/03/03",
+		"Institute/Company": "University of Queensland, Australia",
+		"email": "yiguan@openbiox.org"
 	},
 	{
-		"id": 22,
+		"id": "22",
 		"name": "Chaoran Yu",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXLng.jpg",
-		"href": "http://github.com/yuchaoran"
+		"href": "https://github.com/yuchaoran",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "chaoran_yu@openbiox.org"
 	},
 	{
-		"id": 23,
+		"id": "23",
 		"name": "Ming Jia",
 		"degree": "Phd.",
-		"description": "Core developer",
+		"title": "committe member and core developer",
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXbjS.jpg",
-		"href": "http://github.com/jiamin2010"
-  }
+		"href": "https://github.com/jiamin2010",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Rio Kangchen",
+		"email": "jiamin_2019@openbiox.org"
+	},
+	{
+		"id": "24",
+		"name": "Kejia Kan",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/kkjtmac",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Heidelberg University",
+		"email": "kankj@openbiox.org"
+	},
+	{
+		"id": "25",
+		"name": "Hai Zhu",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/zhuhailearning",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Anhui Medical University",
+		"email": "zhuhailearning@openbiox.org"
+	},
+	{
+		"id": "26",
+		"name": "Longfei Zhao",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/longfei8533",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Zhengzhou University",
+		"email": "zlf@openbiox.org"
+	},
+	{
+		"id": "27",
+		"name": "Dongxu Zheng",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/dongxuzheng",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Guangzhou Medical University",
+		"email": "dxzheng.issac@openbiox.org"
+	},
+	{
+		"id": "28",
+		"name": "Wang Jack",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/JackWangOpenBiox",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Ruijin Hospital",
+		"email": "jack_wang@openbiox.org"
+	},
+	{
+		"id": "29",
+		"name": "Riqiang Bao",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/RiqiangBao",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "baoriqiang@openbiox.org"
+	},
+	{
+		"id": "30",
+		"name": "Xin Zeng",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/wxcjl0919",
+		"join_date": "2019/03/03",
+		"Institute/Company": "University of Tokyo",
+		"email": "xzeng@openbiox.org"
+	},
+	{
+		"id": "31",
+		"name": "Yingshan Chen",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/w1nsan",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese Academy of Sciences University",
+		"email": "cys552@openbiox.org"
+	},
+	{
+		"id": "32",
+		"name": "Quan Cheng",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/claychengquan",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Central South University Xiangya Hospital",
+		"email": "chengquan@openbiox.org"
+	},
+	{
+		"id": "33",
+		"name": "Yu Ding",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/dingyubioinfo",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Harbin Medical University",
+		"email": "dingyu@openbiox.org"
+	},
+	{
+		"id": "34",
+		"name": "Xinxin Guo",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/MoPie",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Zhejiang University",
+		"email": "moopiie@openbiox.org"
+	},
+	{
+		"id": "35",
+		"name": "Wei Han",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/yhan727",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese Academy of Sciences Genome Institute",
+		"email": "yhan@openbiox.org"
+	},
+	{
+		"id": "36",
+		"name": "Qiqi Jie",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/Siaokie",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Lanzhou University",
+		"email": "xieqiqi0429@openbiox.org"
+	},
+	{
+		"id": "37",
+		"name": "Cao Li",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/vow-lic",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Sichuan Agricultural University",
+		"email": "licao@openbiox.org"
+	},
+	{
+		"id": "38",
+		"name": "Xianbin Li",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/eshinesimida",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Zhongshan University",
+		"email": "a454656783@openbiox.org"
+	},
+	{
+		"id": "39",
+		"name": "Wei Li",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/yinlisssss",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Fudan University",
+		"email": "yinli@openbiox.org"
+	},
+	{
+		"id": "40",
+		"name": " Qosta",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/FredQue",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese Academy of Sciences University",
+		"email": "shidaqiaopms@openbiox.org"
+	},
+	{
+		"id": "41",
+		"name": "Yiran Ren",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/yunxiaoxi1314",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese Academy of Medical Sciences",
+		"email": "renyiran@openbiox.org"
+	},
+	{
+		"id": "42",
+		"name": "Weili Shi",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Henan Provincial People's Hospital",
+		"email": ""
+	},
+	{
+		"id": "43",
+		"name": "Huimei Wang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/huimeiwang",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Fudan University School of Basic Medicine",
+		"email": "huimeiwang345@openbiox.org"
+	},
+	{
+		"id": "44",
+		"name": "Ling Wang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/maria0pop",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Second Military Medical University",
+		"email": "wl201506@openbiox.org"
+	},
+	{
+		"id": "45",
+		"name": "Shu Wang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/sherrywangzzz",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Fushan University Huashan Hospital",
+		"email": "sherrywang@openbiox.org"
+	},
+	{
+		"id": "46",
+		"name": "Shuxuan Wang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/SharalynW",
+		"join_date": "2019/03/03",
+		"Institute/Company": "University of Electronic Science and Technology",
+		"email": "wangshuxuan@openbiox.org"
+	},
+	{
+		"id": "47",
+		"name": "Shuzheng Wang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/hjuinj",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Zurich Federal Institute of Technology",
+		"email": "shuzhe.wang@openbiox.org"
+	},
+	{
+		"id": "48",
+		"name": "Chen Wei",
+		"degree": "B.S.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/weichen123hahah",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Dalian Medical University",
+		"email": "weichen@openbiox.org"
+	},
+	{
+		"id": "49",
+		"name": "Hong Wei",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/WeiHong-XJTU",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Xi'an Jiaotong University",
+		"email": "hongwei@openbiox.org"
+	},
+	{
+		"id": "50",
+		"name": "Changpeng Wu",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Anhui Medical University",
+		"email": ""
+	},
+	{
+		"id": "51",
+		"name": "Zhiwei Xu",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/ZhixiaoXu",
+		"join_date": "2019/03/03",
+		"Institute/Company": "East China University of Science and Technology",
+		"email": "zhixiaoxu@openbiox.org"
+	},
+	{
+		"id": "52",
+		"name": "Wang Yang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/yangwang96",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Jilin University",
+		"email": "yangwang1996@openbiox.org"
+	},
+	{
+		"id": "53",
+		"name": "Wei Yang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/RuiYang1994",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Shanxi Medical University",
+		"email": "ruiyang1994@openbiox.org"
+	},
+	{
+		"id": "54",
+		"name": "Ye Yuan",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/yuanye02",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Yunnan Agricultural University",
+		"email": "tuzi25468@openbiox.org"
+	},
+	{
+		"id": "55",
+		"name": "Chao Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/Rickyzhang1990",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Boao Crystal Code",
+		"email": ""
+	},
+	{
+		"id": "56",
+		"name": "Nana Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/zhangnana0911",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Lanzhou University",
+		"email": "zhangnana0911@openbiox.org"
+	},
+	{
+		"id": "57",
+		"name": "Pei Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/Pennyzhang0223",
+		"join_date": "2019/03/03",
+		"Institute/Company": "National Protein Science Center",
+		"email": "pennyzhang@openbiox.org"
+	},
+	{
+		"id": "58",
+		"name": "Yu Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/AndyZhangYu",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Chinese Academy of Agricultural Sciences",
+		"email": "andy1124zhangyu@openbiox.org"
+	},
+	{
+		"id": "59",
+		"name": "Zhiyang Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/zhangzhiyangcs",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Sichuan University",
+		"email": "zhangzhiyang@openbiox.org"
+	},
+	{
+		"id": "60",
+		"name": "Ziying Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/ZiyingZhang1",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Wageningen University",
+		"email": "ziyingzhang@openbiox.org"
+	},
+	{
+		"id": "61",
+		"name": "Nan Zhang",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/AweKevin",
+		"join_date": "2019/03/03",
+		"Institute/Company": "Harbin Medical University",
+		"email": "awekevin@openbiox.org"
+	},
+	{
+		"id": "62",
+		"name": "Wentao Xia",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/sdyz5210",
+		"join_date": "2019/03/17",
+		"Institute/Company": "Beijing Aerospace University",
+		"email": "sdyz5210@openbiox.org"
+	},
+	{
+		"id": "63",
+		"name": "Yu Gu",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/kaigu1990",
+		"join_date": "2019/03/25",
+		"Institute/Company": "Zhongke New Life Biotechnology Co., Ltd.",
+		"email": "kaigu1990@openbiox.org"
+	},
+	{
+		"id": "64",
+		"name": "Xin Li",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/lixin856",
+		"join_date": "2019/03/25",
+		"Institute/Company": "Fudan University Biomedical Research Institute",
+		"email": "lixin@openbiox.org"
+	},
+	{
+		"id": "65",
+		"name": "Xuenan Li",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/lixuenan",
+		"join_date": "2019/03/25",
+		"Institute/Company": "Microgene Technology Co., Ltd.",
+		"email": "lixuenan@openbiox.org"
+	},
+	{
+		"id": "66",
+		"name": "Liang Wu",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/asdwl",
+		"join_date": "2019/04/28",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "liangwu@openbiox.org"
+	},
+	{
+		"id": "67",
+		"name": "Xiaoyu Chen",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/Zulity",
+		"join_date": "2019/04/29",
+		"Institute/Company": "Shanghai Jiaotong University",
+		"email": "xiaoyu_chen@openbiox.org"
+	},
+	{
+		"id": "68",
+		"name": "Zhen Liu",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/zhenLiuExplr",
+		"join_date": "2019/04/29",
+		"Institute/Company": "Chinese Academy of Sciences PICB",
+		"email": "liuzhen@openbiox.org"
+	},
+	{
+		"id": "69",
+		"name": "Dandan Peng",
+		"degree": "Phd.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/dandanpeng",
+		"join_date": "2019/05/13",
+		"Institute/Company": "Zurich Federal Institute of Technology",
+		"email": "dandanpeng@openbiox.org"
+	}
 ]
 
