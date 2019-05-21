@@ -15,6 +15,30 @@
       "sectionName": "members"
     },
     {
+      "name": "Projects",
+      "href": "/projects",
+      "useRoutes": true,
+      "sectionName": "projects"
+    },
+    {
+      "name": "Community",
+      "href": "https://community.openbiox.org",
+      "useRoutes": true,
+      "sectionName": "community"
+    },
+    {
+      "name": "News & Events",
+      "href": "/news_evetns",
+      "useRoutes": true,
+      "sectionName": "news_evetns"
+    },
+    {
+      "name": "Board",
+      "href": "/board",
+      "useRoutes": true,
+      "sectionName": "board"
+    },
+    {
       "name": "Wiki",
       "href": "/wiki",
       "useRoutes": false,

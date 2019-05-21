@@ -10,7 +10,7 @@
     <v-flex
       xs12
       md4
-      v-for="member in committeMembers.slice(committeMembersStart,committeMembersEnd)"
+      v-for="member in members.slice(membersStart,membersEnd)"
       v-bind:key="member.id"
     >
       <a class="memberHref" v-if="member" :href="member.href" target="_blank">
@@ -34,8 +34,8 @@
     <br>
     <v-flex xs12 md12>
       <v-pagination
-        v-model="committeMembersPage"
-        :length="Math.ceil(this.committeMembers.length / this.committeNumEachPage)"
+        v-model="membersPage"
+        :length="Math.ceil(this.members.length / this.numEachPage)"
       ></v-pagination>
     </v-flex>
   </v-layout>
@@ -43,39 +43,39 @@
 
 <script>
 export default {
-  props: ['membersData', 'title'],
+  props: ['membersData', 'title', 'membersTitleKey'],
   data () {
     return {
-      committeMembersPage: 1,
-      committeNumEachPage: 6,
-      committeMembers: []
+      membersPage: 1,
+      numEachPage: 6,
+      members: []
     }
   },
   mounted () {
-    this.getCommitteMembers()
+    this.getmembers()
   },
   computed: {
-    committeMembersStart () {
-      const membersStart = ((this.committeMembersPage - 1) * this.committeNumEachPage).toFixed()
+    membersStart () {
+      const membersStart = ((this.membersPage - 1) * this.numEachPage).toFixed()
       return (Number(membersStart))
     },
-    committeMembersEnd () {
-      if (this.committeMembersStart) {
-        if ((this.committeMembers.length - this.committeMembersStart) < this.committeNumEachPage) {
-          return (this.committeMembers.length)
+    membersEnd () {
+      if (this.membersStart) {
+        if ((this.members.length - this.membersStart) < this.numEachPage) {
+          return (this.members.length)
         }
-        return (this.committeMembersStart + this.committeNumEachPage)
+        return (this.membersStart + this.numEachPage)
       } else {
-        return (this.committeNumEachPage)
+        return (this.numEachPage)
       }
     }
   },
   methods: {
-    getCommitteMembers () {
+    getmembers () {
       for (let i = 0; i < this.membersData.length - 1; i++) {
         let item = this.membersData[i]
-        if (item.title.indexOf('committe member') !== -1) {
-          this.committeMembers.push(this.membersData[i])
+        if (item.title.indexOf(this.membersTitleKey) !== -1) {
+          this.members.push(this.membersData[i])
         }
       }
     }

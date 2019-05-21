@@ -17,6 +17,7 @@ module.exports = {
   // use the full build with in-browser compiler?
   // webpack配置
   // see https://github.com/vuejs/vue-cli/blob/dev/docs/webpack.md
+  transpileDependencies: [/node_modules[/\\\\]vuetify[/\\\\]/],
   chainWebpack: config => {
     config.resolve.alias
       .set('@', resolve('src/client'))
