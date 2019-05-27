@@ -47,37 +47,36 @@ export default {
   data () {
     return {
       membersPage: 1,
-      numEachPage: 6,
-      members: []
+      numEachPage: 6
     }
-  },
-  mounted () {
-    this.getmembers()
   },
   computed: {
     membersStart () {
-      const membersStart = ((this.membersPage - 1) * this.numEachPage).toFixed()
-      return (Number(membersStart))
+      const membersStart = (
+        (this.membersPage - 1) *
+        this.numEachPage
+      ).toFixed()
+      return Number(membersStart)
     },
     membersEnd () {
       if (this.membersStart) {
-        if ((this.members.length - this.membersStart) < this.numEachPage) {
-          return (this.members.length)
+        if (this.members.length - this.membersStart < this.numEachPage) {
+          return this.members.length
         }
-        return (this.membersStart + this.numEachPage)
+        return this.membersStart + this.numEachPage
       } else {
-        return (this.numEachPage)
+        return this.numEachPage
       }
-    }
-  },
-  methods: {
-    getmembers () {
-      for (let i = 0; i < this.membersData.length - 1; i++) {
+    },
+    members () {
+      let final = []
+      for (let i = 0; i < this.membersData.length; i++) {
         let item = this.membersData[i]
         if (item.title.indexOf(this.membersTitleKey) !== -1) {
-          this.members.push(this.membersData[i])
+          final.push(this.membersData[i])
         }
       }
+      return final
     }
   }
 }

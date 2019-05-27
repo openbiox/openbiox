@@ -53,7 +53,7 @@
                 <td>{{ props.item.id }}</td>
                 <td>{{ props.item.name }}</td>
                 <td>{{ props.item.title }}</td>
-                <td>{{ momentFormat(props.item.join_date) }}</td>
+                <td>{{ props.item.join_date }}</td>
               </tr>
             </template>
             <v-alert
@@ -74,7 +74,7 @@
 
 <script>
 import moment from 'moment'
-import membersData from '@/assets/data/about/members.json'
+import membersData from '@/assets/data/members/members.json'
 
 export default {
   data () {

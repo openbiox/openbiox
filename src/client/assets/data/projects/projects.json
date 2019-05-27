@@ -1,0 +1,161 @@
+[
+    {
+        "name": "wiki-x",
+        "intro": "The precipitating of openbiox history.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekCmn.png",
+        "href": "https://github.com/openbiox/wiki",
+        "value": 5,
+        "isAnnual": true
+    },
+    {
+        "name": "ak47",
+        "intro": "Disease database and web application.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekkkV.jpg",
+        "href": "https://github.com/openbiox/disease",
+        "value": 4.5,
+        "isAnnual": true
+    },
+    {
+        "name": "playcloud",
+        "intro": "Just for fun on 'cloud'.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekPwq.jpg",
+        "href": "https://github.com/openbiox/playcloud",
+        "value": 4.5,
+        "isAnnual": true
+    },
+    {
+        "name": "dnachat",
+        "intro": "Master the openbiox social media.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekQTx.jpg",
+        "href": "https://github.com/openbiox/wiki",
+        "value": 4.5,
+        "isAnnual": true
+    },
+    {
+        "name": "xenashiny",
+        "intro": "A Shiny App for UCSC Xena.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekpOs.png",
+        "href": "https://github.com/openbiox/XenaShiny",
+        "value": 4.5,
+        "isAnnual": true
+    },
+    {
+        "name": "Cookbook4r",
+        "intro": "One R book translation project (EN->CN)",
+        "src": "https://s2.ax1x.com/2019/05/28/VekXH1.png",
+        "href": "https://github.com/openbiox/Cookbook-for-R-Chinese",
+        "value": 5,
+        "isAnnual": true
+    },
+    {
+        "name": "TCGA Tool Kit",
+        "intro": "Encode Imputation Challenge.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekEfU.png",
+        "href": "https://github.com/openbiox/TCGA-Tool-Kit",
+        "value": 4,
+        "isAnnual": true
+    },
+    {
+        "name": "scRNA–seq OnlineFlow",
+        "intro": "The precipitating of openbiox history",
+        "src": "https://s2.ax1x.com/2019/05/28/VekAYT.jpg",
+        "value": 4,
+        "isAnnual": true
+    },
+    {
+        "name": "Rvisualization",
+        "intro": "The precipitating of openbiox history",
+        "src": "https://s2.ax1x.com/2019/05/28/VekM01.png",
+        "href": "https://github.com/orgs/openbiox/projects/8",
+        "value": 4,
+        "isAnnual": true
+    },
+    {
+        "name": "gists",
+        "intro": "Curated gists code.",
+        "src": "https://s2.ax1x.com/2019/05/28/Vekel4.png",
+        "href": "https://github.com/openbiox/gists",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "bioshiny",
+        "intro": "A project to develop the R Shiny applications",
+        "src": "https://s2.ax1x.com/2019/05/28/VekZpF.jpg",
+        "href": "https://github.com/openbiox/bioshiny",
+        "value": 5,
+        "isAnnual": false
+    },
+    {
+        "name": "awosome-bioinformatics",
+        "intro": "Curated list of bioinformatics resources.",
+        "src": "https://s2.ax1x.com/2019/05/28/Vekm6J.jpg",
+        "href": "https://github.com/openbiox/awosome-bioinformatics",
+        "value": 5,
+        "isAnnual": false
+    },
+    {
+        "name": "bioinformatics-100-days",
+        "intro": "Learning bioinformatics in 100 days.",
+        "src": "https://s2.ax1x.com/2019/05/28/VeknX9.png",
+        "href": "https://github.com/openbiox/bioinformatics-100-days",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "golang-100-days",
+        "intro": "Learning Golang in 100 days.",
+        "src": "https://s2.ax1x.com/2019/05/28/VekY1e.jpg",
+        "href": "https://github.com/openbiox/golang-100-days",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "spack-cache",
+        "intro": "Share spack cache files.",
+        "src": "https://spack.io/img/spack-logo-white.svg",
+        "href": "https://github.com/openbiox/spack-cache",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "tai",
+        "intro": "Golang-based bioinformatics pipeline.",
+        "src": "https://s2.ax1x.com/2019/05/28/Vek8fO.jpg",
+        "href": "https://github.com/JhuangLab/tai",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "Community forum",
+        "intro": "Maintaining openbiox community forum",
+        "src": "https://s2.ax1x.com/2019/05/27/VeiDbt.png",
+        "href": "https://github.com/openbiox/flarum",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "CheckOverlap",
+        "intro": "Rcpp check SNPs <-> DNA segments",
+        "src": "https://s2.ax1x.com/2019/05/28/Vek1k6.jpg",
+        "href": "https://github.com/Yiguan/CheckOverlap",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "DoAbsolute",
+        "intro": "Automate absolute copy number calling.",
+        "src": "https://s2.ax1x.com/2019/05/28/Vek3tK.jpg",
+        "href": "https://github.com/ShixiangWang/DoAbsolute",
+        "value": 4,
+        "isAnnual": false
+    },
+    {
+        "name": "siGSEA",
+        "intro": "Simplified version of GSEA",
+        "src": "https://s2.ax1x.com/2019/05/28/VekJpD.jpg",
+        "href": "https://github.com/kaigu1990/siGSEA",
+        "value": 4,
+        "isAnnual": false
+    }
+]

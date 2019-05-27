@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <b-nav/>
-    <v-content>
+    <v-content id="main">
       <b-svg
         v-if="invalidRoute"
         style="min-height:800px;margin-top:200px"
@@ -11,7 +11,8 @@
       />
       <div v-else style="min-height:800px">
         <b-banner :bannerText="shortTitle" v-if="useBanner"/>
-        <router-view></router-view>
+        <router-view>
+        </router-view>
       </div>
       <b-back-to-top/>
       <b-footer/>

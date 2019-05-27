@@ -21,22 +21,16 @@
       "sectionName": "projects"
     },
     {
+      "name": "News & Events",
+      "href": "/news_events",
+      "useRoutes": true,
+      "sectionName": "news_events"
+    },
+    {
       "name": "Community",
       "href": "https://community.openbiox.org",
       "useRoutes": true,
       "sectionName": "community"
-    },
-    {
-      "name": "News & Events",
-      "href": "/news_evetns",
-      "useRoutes": true,
-      "sectionName": "news_evetns"
-    },
-    {
-      "name": "Board",
-      "href": "/board",
-      "useRoutes": true,
-      "sectionName": "board"
     },
     {
       "name": "Wiki",
@@ -44,6 +38,12 @@
       "useRoutes": false,
       "target": "_blank",
       "sectionName": "wiki"
+    },
+    {
+      "name": "Contact Us",
+      "href": "/contact",
+      "useRoutes": true,
+      "sectionName": "contact"
     }
   ]
 }]

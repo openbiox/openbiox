@@ -2,8 +2,8 @@
     "/home":"Home",
     "/members":"Members",
     "/projects": "Projects",
-    "https://community.openbiox.org":"Community",
     "/news_events": "News & Events",
-    "/board": "Board",
-    "/wiki": "Wiki"
+    "https://community.openbiox.org":"Community",
+    "/wiki": "Wiki",
+    "/contact": "Contact Us"
 }

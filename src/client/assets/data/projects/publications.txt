@@ -1,0 +1,13 @@
+@article{RN22840,
+   author = {Li, J. and Cui, B. and Dai, Y. and Bai, L. and Huang, J.},
+   title = {BioInstaller: a comprehensive R package to construct interactive and reproducible biological data analysis applications based on the R platform},
+   journal = {PeerJ},
+   volume = {6},
+   pages = {e5853},
+   ISSN = {2167-8359 (Print)
+2167-8359 (Linking)},
+   DOI = {10.7717/peerj.5853},
+   url = {https://www.ncbi.nlm.nih.gov/pubmed/30402350},
+   year = {2018},   PMID = {30402350},
+   type = {Journal Article}
+}

@@ -61,6 +61,36 @@ var routes = [{
     useBanner: true,
     pageName: 'Members'
   }
+},
+{
+  path: '/projects',
+  name: 'Projects',
+  component: () => import('@/components/core/ProjectsPage'),
+  meta: {
+    title: 'Projects',
+    useBanner: true,
+    pageName: 'Projects'
+  }
+},
+{
+  path: '/news_events',
+  name: 'News & Events',
+  component: () => import('@/components/core/NewsEventsPage'),
+  meta: {
+    title: 'News & Events',
+    useBanner: true,
+    pageName: 'News & Events'
+  }
+},
+{
+  path: '/contact',
+  name: 'Contact Us',
+  component: () => import('@/components/core/ContactUsPage'),
+  meta: {
+    title: 'Contact Us',
+    useBanner: true,
+    pageName: 'Contact Us'
+  }
 }
 ]
 
