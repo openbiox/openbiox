@@ -29,7 +29,7 @@
     {
       "name": "Community",
       "href": "https://community.openbiox.org",
-      "useRoutes": true,
+      "useRoutes": false,
       "sectionName": "community"
     },
     {
