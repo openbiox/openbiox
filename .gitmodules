@@ -1,0 +1,9 @@
+[submodule "dist/tools/clipboard2markdown"]
+	path = dist/tools/clipboard2markdown
+	url = https://github.com/euangoddard/clipboard2markdown
+[submodule "dist/tools/toml-to-go"]
+	path = dist/tools/toml-to-go
+	url = https://github.com/xuri/toml-to-go
+[submodule "dist/tools/sra-explorer"]
+	path = dist/tools/sra-explorer
+	url = https://github.com/ewels/sra-explorer
