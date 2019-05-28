@@ -79,7 +79,7 @@ export default {
   },
   data: () => ({
     homeAboutTitle: 'About the openbiox',
-    homeAboutHtml: '<p><a href="https://github.com/openbiox">openbiox</a> is a community-driven bioinformatics innovation collaboration group. It was founded in March 2019 and consist of undergraduate, master, doctoral, and postdoctoral students from well-known universities and research institutes around the world.</p><p>As of April 2019, openbiox had a total of 69 members, completed the formation of at least 11 project teams, and launched more than 10 bioinformatics innovation practice projects, with project funds exceeding 13,000 yuan and web/computing servers.</p>',
+    homeAboutHtml: '<p><a href="https://github.com/openbiox">openbiox</a> is a community-driven global bioinformatics innovation collaboration group. It was founded in March 2019 and consist of undergraduate, master, doctoral, and postdoctoral students from well-known universities and research institutes around the world.</p><p>As of April 2019, openbiox had a total of 69 members, completed the formation of at least 11 project teams, and launched more than 10 bioinformatics innovation practice projects, with project funds exceeding 13,000 yuan and web/computing servers.</p>',
     customIntroductionCards: [
       {
         tag: 'GA4GH',

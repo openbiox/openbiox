@@ -57,14 +57,15 @@
     },
     {
         "name": "scRNA–seq OnlineFlow",
-        "intro": "The precipitating of openbiox history",
+        "intro": "Analysis single cell RNA-sequencing data",
         "src": "https://s2.ax1x.com/2019/05/28/VekAYT.jpg",
+        "href": "https://github.com/openbiox/scRNA-seq-OnlineFlow",
         "value": 4,
         "isAnnual": true
     },
     {
         "name": "Rvisualization",
-        "intro": "The precipitating of openbiox history",
+        "intro": "A group for learning R visualization",
         "src": "https://s2.ax1x.com/2019/05/28/VekM01.png",
         "href": "https://github.com/orgs/openbiox/projects/8",
         "value": 4,

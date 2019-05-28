@@ -93,7 +93,6 @@ export default {
     keyword: null,
     text: '',
     keywords: ['application', 'feedback', 'suggestion', 'donation'],
-    alert: true,
     membersData: membersData,
     navItems: [
       {
@@ -141,7 +140,11 @@ export default {
   methods: {
     submit () {
       this.$v.$touch()
-      window.open('mailto:committee@openbiox.org?subject=message from ' + this.name + 'send to openbiox committee (' + this.keyword + ')' + '&body=' + this.text, '_blank')
+      if (this.$v.$invalid) {
+        return false
+      } else {
+        window.open('mailto:committee@openbiox.org?subject=message send to openbiox committee (' + this.name + ';' + this.email + ';' + this.keyword + ')' + '&body=' + this.text, '_blank')
+      }
     },
     clear () {
       this.$v.$reset()
