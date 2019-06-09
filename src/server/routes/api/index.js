@@ -9,7 +9,6 @@ import path from 'path'
 import bibtexParse from 'bibtex2json'
 import request from 'request'
 import config from '../config'
-import reqConfig from '../reqConfig'
 var router = express.Router()
 
 var assetsDir = config.assetsDir

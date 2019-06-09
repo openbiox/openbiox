@@ -1,4 +1,3 @@
-import 'babel-polyfill'
 import Vue from 'vue'
 import Vuex from 'vuex'
 import './plugins/vuetify'
@@ -7,20 +6,10 @@ import router from './router'
 import store from './store'
 import filters from './filters'
 import axios from 'axios'
-import VueSocketIO from 'vue-socket.io'
 import './permission' // permission control
 import './assets/css/global.css'
 
 Vue.use(Vuex)
-Vue.use(new VueSocketIO({
-  debug: false,
-  connection: process.env.VUE_APP_API_URL,
-  vuex: {
-    store,
-    actionPrefix: 'SOCKET_',
-    mutationPrefix: 'SOCKET_'
-  }
-}))
 
 Vue.config.productionTip = false
 

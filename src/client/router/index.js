@@ -22,37 +22,6 @@ var routes = [{
   }
 },
 {
-  path: '/login',
-  name: 'Login',
-  component: () => import('@/components/admin/Login'),
-  meta: {
-    title: 'Login',
-    useBanner: false,
-    pageName: 'Login'
-  }
-},
-{
-  path: '/logout',
-  name: 'Logout',
-  component: () => import('@/components/admin/Logout'),
-  meta: {
-    title: 'Logout',
-    useBanner: false,
-    pageName: 'Logout'
-  }
-},
-{
-  path: '/dashboard',
-  name: 'Dashboard',
-  component: () => import('@/components/core/DashboardPage'),
-  meta: {
-    title: 'Dashboard',
-    useBanner: true,
-    pageName: 'Dashboard',
-    requiresAuth: true
-  }
-},
-{
   path: '/members',
   name: 'Members',
   component: () => import('@/components/core/MembersPage'),
@@ -93,34 +62,6 @@ var routes = [{
   }
 }
 ]
-
-// children route
-for (var i = 0; i < routes.length; i++) {
-  if (routes[i].name === 'Dashboard') {
-    routes[i]['children'] = [{
-      name: 'DashbordPage-' + i,
-      path: ':sectionName',
-      component: () => import('@/components/core/DashboardPage'),
-      meta: {
-        title: 'Dashboard',
-        useBanner: true,
-        pageName: 'Dashboard',
-        requiresAuth: true
-      }
-    }]
-    routes[i]['children'].push({
-      name: 'DashbordSubPage-' + i,
-      path: ':sectionName/:itemName',
-      component: () => import('@/components/core/DashboardPage'),
-      meta: {
-        title: 'Dashboard',
-        useBanner: true,
-        pageName: 'Dashboard',
-        requiresAuth: true
-      }
-    })
-  }
-}
 
 export default new Router({
   mode: 'history',

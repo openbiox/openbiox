@@ -39,28 +39,18 @@
             :href="href">{{ link }}</v-btn>
       </div>
       <v-spacer></v-spacer>
-      <router-link v-if="!token" to="/login">
-        <v-btn flat round class="main-nav-button without-text-transform">Sign in</v-btn>
-      </router-link>
-      <router-link v-if="token" to="/logout">
-        <v-btn flat round class="main-nav-button without-text-transform">Logout</v-btn>
-      </router-link>
-      <v-user-avator v-if="token"/>
     </v-toolbar>
   </div>
 </template>
 
 <script>
 import headerNavLinks from '@/router/pages/BaseHeaderNav'
-import { logoutCleanLocalStoreage } from '@/utils/auth'
-import { mapMutations } from 'vuex'
 import externalSite from '@/router/pages/ExternalSites.json'
 
 export default {
   name: 'b-nav',
   components: {
-    'v-custom-side-bar': () => import('@/components/base/sidebar/BaseFixedLeftNavList'),
-    'v-user-avator': () => import('@/components/base/header/BaseAvator')
+    'v-custom-side-bar': () => import('@/components/base/sidebar/BaseFixedLeftNavList')
   },
   data () {
     return {
@@ -80,13 +70,7 @@ export default {
       this.updatePageName()
     }
   },
-  mounted () {
-    this.$nextTick(function () {
-      setInterval(this.checkToken, 1000 * 120)
-    })
-  },
   methods: {
-    ...mapMutations(['changeLogin']),
     isPageActive: function (i) {
       if (this.pageName === i) {
         return 'main-nav-button main-nav-button-activated'
@@ -96,20 +80,6 @@ export default {
     },
     updatePageName: function () {
       this.pageName = document.pageName
-    },
-    checkToken: function () {
-      if (this.token) {
-        var _this = this
-        _this.$ajax
-          .post('/api/check/token')
-          .then(function (response) {
-            if (response.data.ret_code === 1) {
-              _this.changeLogin({ token: null, uuid: null, userId: null })
-              logoutCleanLocalStoreage()
-              window.location.reload()
-            }
-          })
-      }
     },
     isExternalSite: function (link) {
       for (const i in this.externalSite) {

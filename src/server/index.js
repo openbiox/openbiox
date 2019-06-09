@@ -5,7 +5,6 @@
 import app from './app'
 import debugFactory from 'debug'
 import http from 'http'
-import sockets from './sockets'
 
 const debug = debugFactory('express-vue:server')
 
@@ -22,10 +21,6 @@ app.set('port', port)
 
 var server = http.createServer(app)
 
-var io = require('socket.io')(server)
-io.on('connection', function (socket) {
-  sockets.listenSocket(socket, io)
-})
 /**
  * Listen on provided port, on all network interfaces.
  */
