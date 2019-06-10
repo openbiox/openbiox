@@ -7,7 +7,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/26/EmSA8U.jpg",
 		"href": "https://life2cloud.com",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "lee_jianfeng@openbiox.org"
 	},
 	{
@@ -18,7 +18,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBBhF.jpg",
 		"href": "https://hellen.life2cloud.com",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Fudan University",
+		"org": "Fudan University",
 		"email": "hellenzz@openbiox.org"
 	},
 	{
@@ -29,7 +29,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuB0tU.jpg",
 		"href": "https://github.com/ytdai",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "daiyuting@openbiox.org"
 	},
 	{
@@ -40,7 +40,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBrp4.jpg",
 		"href": "https://www.bio-info-trainee.com",
 		"join_date": "2019/3/3",
-		"Institute/Company": "University of Macau",
+		"org": "University of Macau",
 		"email": "jmzeng1314@openbiox.org"
 	},
 	{
@@ -51,7 +51,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBwkT.jpg",
 		"href": "https://www.jianshu.com/u/b6608e27dc74",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanghai University of Science and Technology",
+		"org": "Shanghai University of Science and Technology",
 		"email": "shixiangwang@openbiox.org"
 	},
 	{
@@ -62,7 +62,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBNmq.jpg",
 		"href": "https://github.com/yangyangclover",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Huazhong University of Science and Technology",
+		"org": "Huazhong University of Science and Technology",
 		"email": "yangyang@openbiox.org"
 	},
 	{
@@ -73,7 +73,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBYXn.jpg",
 		"href": "https://kaopubear.top",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese Academy of Sciences",
+		"org": "Chinese Academy of Sciences",
 		"email": "zhaofei@openbiox.org"
 	},
 	{
@@ -84,7 +84,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuDDVP.jpg",
 		"href": "https://github.com/xxmen",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese University of Hong Kong",
+		"org": "Chinese University of Hong Kong",
 		"email": "cyhong@openbiox.org"
 	},
 	{
@@ -95,7 +95,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBltS.jpg",
 		"href": "https://github.com/wupengss",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese University of Hong Kong",
+		"org": "Chinese University of Hong Kong",
 		"email": "wupeng@openbiox.org"
 	},
 	{
@@ -106,7 +106,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBGlj.jpg",
 		"href": "https://github.com/Jinzeng-Wang",
 		"join_date": "2019/3/3",
-		"Institute/Company": "National Translational Medicine Center (Shanghai)",
+		"org": "National Translational Medicine Center (Shanghai)",
 		"email": "jzwang@openbiox.org"
 	},
 	{
@@ -117,7 +117,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuB8pQ.jpg",
 		"href": "https://github.com/rafael1314",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Tsinghua University",
+		"org": "Tsinghua University",
 		"email": "lirz@openbiox.org"
 	},
 	{
@@ -128,7 +128,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBU00.jpg",
 		"href": "https://github.com/xchromosome219",
 		"join_date": "2019/3/3",
-		"Institute/Company": "National Cancer Centre Singapore",
+		"org": "National Cancer Centre Singapore",
 		"email": "ht.wang@openbiox.org"
 	},
 	{
@@ -139,7 +139,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBa7V.jpg",
 		"href": "https://github.com/zhaoqingbo1993",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "zhaoqingbo@openbiox.org"
 	},
 	{
@@ -150,7 +150,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuB1fg.jpg",
 		"href": "https://github.com/wang-qi-wang",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Baiqu",
+		"org": "Baiqu",
 		"email": "wangqi_jg@openbiox.org"
 	},
 	{
@@ -161,7 +161,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBQk8.jpg",
 		"href": "https://github.com/hyacz",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Wuhan University of Technology",
+		"org": "Wuhan University of Technology",
 		"email": "zhanghh@openbiox.org"
 	},
 	{
@@ -172,7 +172,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBJ6s.jpg",
 		"href": "https://github.com/WenlongShen",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Military academy",
+		"org": "Military academy",
 		"email": "wenlongshen@openbiox.org"
 	},
 	{
@@ -183,7 +183,7 @@
 		"avater": "https://s2.ax1x.com/2019/04/27/EuBs1J.jpg",
 		"href": "https://github.com/ChrisLou-bioinfo",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Dalian Medical University",
+		"org": "Dalian Medical University",
 		"email": "lou_jiacheng@openbiox.org"
 	},
 	{
@@ -194,7 +194,7 @@
 		"avater": "https://s2.ax1x.com/2019/05/19/EjX71f.jpg",
 		"href": "https://github.com/2015qyliang",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shan Dong University",
+		"org": "Shan Dong University",
 		"email": "qyliang@openbiox.org"
 	},
 	{
@@ -205,7 +205,7 @@
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXT9P.jpg",
 		"href": "https://github.com/eyeliaokai",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Central South University",
+		"org": "Central South University",
 		"email": "eyeliaokai@openbiox.org"
 	},
 	{
@@ -216,7 +216,7 @@
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXHc8.jpg",
 		"href": "https://github.com/Byronxy",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Central South University",
+		"org": "Central South University",
 		"email": "neuroxiong@openbiox.org"
 	},
 	{
@@ -227,7 +227,7 @@
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXOBQ.jpg",
 		"href": "https://github.com/Yiguan",
 		"join_date": "2019/3/3",
-		"Institute/Company": "University of Queensland, Australia",
+		"org": "University of Queensland, Australia",
 		"email": "yiguan@openbiox.org"
 	},
 	{
@@ -238,7 +238,7 @@
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXLng.jpg",
 		"href": "https://github.com/yuchaoran",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "chaoran_yu@openbiox.org"
 	},
 	{
@@ -249,7 +249,7 @@
 		"avater": "https://s2.ax1x.com/2019/05/19/EjXbjS.jpg",
 		"href": "https://github.com/jiamin2010",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Rio Kangchen",
+		"org": "Rio Kangchen",
 		"email": "jiamin_2019@openbiox.org"
 	},
 	{
@@ -260,7 +260,7 @@
 		"avater": "",
 		"href": "https://github.com/kkjtmac",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Heidelberg University",
+		"org": "Heidelberg University",
 		"email": "kankj@openbiox.org"
 	},
 	{
@@ -271,7 +271,7 @@
 		"avater": "",
 		"href": "https://github.com/zhuhailearning",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Anhui Medical University",
+		"org": "Anhui Medical University",
 		"email": "zhuhailearning@openbiox.org"
 	},
 	{
@@ -282,7 +282,7 @@
 		"avater": "",
 		"href": "https://github.com/longfei8533",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Zhengzhou University",
+		"org": "Zhengzhou University",
 		"email": "zlf@openbiox.org"
 	},
 	{
@@ -293,7 +293,7 @@
 		"avater": "",
 		"href": "https://github.com/dongxuzheng",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Guangzhou Medical University",
+		"org": "Guangzhou Medical University",
 		"email": "dxzheng.issac@openbiox.org"
 	},
 	{
@@ -304,7 +304,7 @@
 		"avater": "",
 		"href": "https://github.com/JackWangOpenBiox",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Ruijin Hospital",
+		"org": "Ruijin Hospital",
 		"email": "jack_wang@openbiox.org"
 	},
 	{
@@ -315,7 +315,7 @@
 		"avater": "",
 		"href": "https://github.com/RiqiangBao",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "baoriqiang@openbiox.org"
 	},
 	{
@@ -326,7 +326,7 @@
 		"avater": "",
 		"href": "https://github.com/wxcjl0919",
 		"join_date": "2019/3/3",
-		"Institute/Company": "University of Tokyo",
+		"org": "University of Tokyo",
 		"email": "xzeng@openbiox.org"
 	},
 	{
@@ -337,7 +337,7 @@
 		"avater": "",
 		"href": "https://github.com/w1nsan",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese Academy of Sciences University",
+		"org": "Chinese Academy of Sciences University",
 		"email": "cys552@openbiox.org"
 	},
 	{
@@ -348,7 +348,7 @@
 		"avater": "",
 		"href": "https://github.com/claychengquan",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Central South University Xiangya Hospital",
+		"org": "Central South University Xiangya Hospital",
 		"email": "chengquan@openbiox.org"
 	},
 	{
@@ -359,7 +359,7 @@
 		"avater": "",
 		"href": "https://github.com/dingyubioinfo",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Harbin Medical University",
+		"org": "Harbin Medical University",
 		"email": "dingyu@openbiox.org"
 	},
 	{
@@ -370,7 +370,7 @@
 		"avater": "",
 		"href": "https://github.com/MoPie",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Zhejiang University",
+		"org": "Zhejiang University",
 		"email": "moopiie@openbiox.org"
 	},
 	{
@@ -381,7 +381,7 @@
 		"avater": "",
 		"href": "https://github.com/yhan727",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese Academy of Sciences Genome Institute",
+		"org": "Chinese Academy of Sciences Genome Institute",
 		"email": "yhan@openbiox.org"
 	},
 	{
@@ -392,7 +392,7 @@
 		"avater": "",
 		"href": "https://github.com/Siaokie",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Lanzhou University",
+		"org": "Lanzhou University",
 		"email": "xieqiqi0429@openbiox.org"
 	},
 	{
@@ -403,7 +403,7 @@
 		"avater": "",
 		"href": "https://github.com/vow-lic",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Sichuan Agricultural University",
+		"org": "Sichuan Agricultural University",
 		"email": "licao@openbiox.org"
 	},
 	{
@@ -414,7 +414,7 @@
 		"avater": "",
 		"href": "https://github.com/eshinesimida",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Zhongshan University",
+		"org": "Zhongshan University",
 		"email": "a454656783@openbiox.org"
 	},
 	{
@@ -425,7 +425,7 @@
 		"avater": "",
 		"href": "https://github.com/yinlisssss",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Fudan University",
+		"org": "Fudan University",
 		"email": "yinli@openbiox.org"
 	},
 	{
@@ -436,7 +436,7 @@
 		"avater": "",
 		"href": "https://github.com/FredQue",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese Academy of Sciences University",
+		"org": "Chinese Academy of Sciences University",
 		"email": "shidaqiaopms@openbiox.org"
 	},
 	{
@@ -447,7 +447,7 @@
 		"avater": "",
 		"href": "https://github.com/yunxiaoxi1314",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese Academy of Medical Sciences",
+		"org": "Chinese Academy of Medical Sciences",
 		"email": "renyiran@openbiox.org"
 	},
 	{
@@ -458,7 +458,7 @@
 		"avater": "",
 		"href": "",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Henan Provincial People's Hospital",
+		"org": "Henan Provincial People's Hospital",
 		"email": ""
 	},
 	{
@@ -469,7 +469,7 @@
 		"avater": "",
 		"href": "https://github.com/huimeiwang",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Fudan University School of Basic Medicine",
+		"org": "Fudan University School of Basic Medicine",
 		"email": "huimeiwang345@openbiox.org"
 	},
 	{
@@ -480,7 +480,7 @@
 		"avater": "",
 		"href": "https://github.com/maria0pop",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Second Military Medical University",
+		"org": "Second Military Medical University",
 		"email": "wl201506@openbiox.org"
 	},
 	{
@@ -491,7 +491,7 @@
 		"avater": "",
 		"href": "https://github.com/sherrywangzzz",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Fushan University Huashan Hospital",
+		"org": "Fushan University Huashan Hospital",
 		"email": "sherrywang@openbiox.org"
 	},
 	{
@@ -502,7 +502,7 @@
 		"avater": "",
 		"href": "https://github.com/SharalynW",
 		"join_date": "2019/3/3",
-		"Institute/Company": "University of Electronic Science and Technology",
+		"org": "University of Electronic Science and Technology",
 		"email": "wangshuxuan@openbiox.org"
 	},
 	{
@@ -513,7 +513,7 @@
 		"avater": "",
 		"href": "https://github.com/hjuinj",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Zurich Federal Institute of Technology",
+		"org": "Zurich Federal Institute of Technology",
 		"email": "shuzhe.wang@openbiox.org"
 	},
 	{
@@ -524,7 +524,7 @@
 		"avater": "",
 		"href": "https://github.com/weichen123hahah",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Dalian Medical University",
+		"org": "Dalian Medical University",
 		"email": "weichen@openbiox.org"
 	},
 	{
@@ -535,7 +535,7 @@
 		"avater": "",
 		"href": "https://github.com/WeiHong-XJTU",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Xi'an Jiaotong University",
+		"org": "Xi'an Jiaotong University",
 		"email": "hongwei@openbiox.org"
 	},
 	{
@@ -546,7 +546,7 @@
 		"avater": "",
 		"href": "",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Anhui Medical University",
+		"org": "Anhui Medical University",
 		"email": ""
 	},
 	{
@@ -557,7 +557,7 @@
 		"avater": "",
 		"href": "https://github.com/ZhixiaoXu",
 		"join_date": "2019/3/3",
-		"Institute/Company": "East China University of Science and Technology",
+		"org": "East China University of Science and Technology",
 		"email": "zhixiaoxu@openbiox.org"
 	},
 	{
@@ -568,7 +568,7 @@
 		"avater": "",
 		"href": "https://github.com/yangwang96",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Jilin University",
+		"org": "Jilin University",
 		"email": "yangwang1996@openbiox.org"
 	},
 	{
@@ -579,7 +579,7 @@
 		"avater": "",
 		"href": "https://github.com/RuiYang1994",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Shanxi Medical University",
+		"org": "Shanxi Medical University",
 		"email": "ruiyang1994@openbiox.org"
 	},
 	{
@@ -590,7 +590,7 @@
 		"avater": "",
 		"href": "https://github.com/yuanye02",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Yunnan Agricultural University",
+		"org": "Yunnan Agricultural University",
 		"email": "tuzi25468@openbiox.org"
 	},
 	{
@@ -601,7 +601,7 @@
 		"avater": "",
 		"href": "https://github.com/Rickyzhang1990",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Boao Crystal Code",
+		"org": "Boao Crystal Code",
 		"email": ""
 	},
 	{
@@ -612,7 +612,7 @@
 		"avater": "",
 		"href": "https://github.com/zhangnana0911",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Lanzhou University",
+		"org": "Lanzhou University",
 		"email": "zhangnana0911@openbiox.org"
 	},
 	{
@@ -623,7 +623,7 @@
 		"avater": "",
 		"href": "https://github.com/Pennyzhang0223",
 		"join_date": "2019/3/3",
-		"Institute/Company": "National Protein Science Center",
+		"org": "National Protein Science Center",
 		"email": "pennyzhang@openbiox.org"
 	},
 	{
@@ -634,7 +634,7 @@
 		"avater": "",
 		"href": "https://github.com/AndyZhangYu",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Chinese Academy of Agricultural Sciences",
+		"org": "Chinese Academy of Agricultural Sciences",
 		"email": "andy1124zhangyu@openbiox.org"
 	},
 	{
@@ -645,7 +645,7 @@
 		"avater": "",
 		"href": "https://github.com/zhangzhiyangcs",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Sichuan University",
+		"org": "Sichuan University",
 		"email": "zhangzhiyang@openbiox.org"
 	},
 	{
@@ -656,7 +656,7 @@
 		"avater": "",
 		"href": "https://github.com/ZiyingZhang1",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Wageningen University",
+		"org": "Wageningen University",
 		"email": "ziyingzhang@openbiox.org"
 	},
 	{
@@ -667,7 +667,7 @@
 		"avater": "",
 		"href": "https://github.com/AweKevin",
 		"join_date": "2019/3/3",
-		"Institute/Company": "Harbin Medical University",
+		"org": "Harbin Medical University",
 		"email": "awekevin@openbiox.org"
 	},
 	{
@@ -678,7 +678,7 @@
 		"avater": "",
 		"href": "https://github.com/sdyz5210",
 		"join_date": "2019/03/17",
-		"Institute/Company": "Beijing Aerospace University",
+		"org": "Beijing Aerospace University",
 		"email": "sdyz5210@openbiox.org"
 	},
 	{
@@ -689,7 +689,7 @@
 		"avater": "",
 		"href": "https://github.com/kaigu1990",
 		"join_date": "2019/03/25",
-		"Institute/Company": "Zhongke New Life Biotechnology Co., Ltd.",
+		"org": "Zhongke New Life Biotechnology Co., Ltd.",
 		"email": "kaigu1990@openbiox.org"
 	},
 	{
@@ -700,7 +700,7 @@
 		"avater": "",
 		"href": "https://github.com/lixin856",
 		"join_date": "2019/03/25",
-		"Institute/Company": "Fudan University Biomedical Research Institute",
+		"org": "Fudan University Biomedical Research Institute",
 		"email": "lixin@openbiox.org"
 	},
 	{
@@ -711,7 +711,7 @@
 		"avater": "",
 		"href": "https://github.com/lixuenan",
 		"join_date": "2019/03/25",
-		"Institute/Company": "Microgene Technology Co., Ltd.",
+		"org": "Microgene Technology Co., Ltd.",
 		"email": "lixuenan@openbiox.org"
 	},
 	{
@@ -722,7 +722,7 @@
 		"avater": "",
 		"href": "https://github.com/asdwl",
 		"join_date": "2019/04/28",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "liangwu@openbiox.org"
 	},
 	{
@@ -733,7 +733,7 @@
 		"avater": "",
 		"href": "https://github.com/Zulity",
 		"join_date": "2019/04/29",
-		"Institute/Company": "Shanghai Jiaotong University",
+		"org": "Shanghai Jiaotong University",
 		"email": "xiaoyu_chen@openbiox.org"
 	},
 	{
@@ -744,7 +744,7 @@
 		"avater": "",
 		"href": "https://github.com/zhenLiuExplr",
 		"join_date": "2019/04/29",
-		"Institute/Company": "Chinese Academy of Sciences PICB",
+		"org": "Chinese Academy of Sciences PICB",
 		"email": "liuzhen@openbiox.org"
 	},
 	{
@@ -755,8 +755,19 @@
 		"avater": "",
 		"href": "https://github.com/dandanpeng",
 		"join_date": "2019/05/13",
-		"Institute/Company": "Zurich Federal Institute of Technology",
+		"org": "Zurich Federal Institute of Technology",
 		"email": "dandanpeng@openbiox.org"
+	},
+	{
+		"id": "70",
+		"name": "Xiao Wang",
+		"degree": "Md.",
+		"title": "member",
+		"avater": "",
+		"href": "https://github.com/imxiaow",
+		"join_date": "2019/06/04",
+		"org": "Oregon Health and Science University",
+		"email": "xiao_wang@openbiox.org"
 	}
 ]
 

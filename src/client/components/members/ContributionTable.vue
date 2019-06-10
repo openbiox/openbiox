@@ -53,6 +53,7 @@
                 <td>{{ props.item.id }}</td>
                 <td>{{ props.item.name }}</td>
                 <td>{{ props.item.title }}</td>
+                <td>{{ props.item.org }}</td>
                 <td>{{ props.item.join_date }}</td>
               </tr>
             </template>
@@ -102,6 +103,7 @@ export default {
         },
         { text: 'Name', value: 'name', align: 'center' },
         { text: 'Title', value: 'title', align: 'center' },
+        { text: 'Org', value: 'org', align: 'center' },
         {
           text: 'Join Date',
           value: 'join_date',

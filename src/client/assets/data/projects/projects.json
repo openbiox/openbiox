@@ -8,6 +8,22 @@
         "isAnnual": true
     },
     {
+        "name": "openbiox-Translation",
+        "intro": "openbiox translation plan.",
+        "src": "https://s2.ax1x.com/2019/06/10/VywNPf.jpg",
+        "href": "https://github.com/openbiox/openbiox-Translation",
+        "value": 5,
+        "isAnnual": true
+    },
+    {
+        "name": "Cookbook4r",
+        "intro": "One R book translation project (EN->CN)",
+        "src": "https://s2.ax1x.com/2019/05/28/VekXH1.png",
+        "href": "https://github.com/openbiox/Cookbook-for-R-Chinese",
+        "value": 5,
+        "isAnnual": true
+    },
+    {
         "name": "ak47",
         "intro": "Disease database and web application.",
         "src": "https://s2.ax1x.com/2019/05/28/VekkkV.jpg",
@@ -37,14 +53,6 @@
         "src": "https://s2.ax1x.com/2019/05/28/VekpOs.png",
         "href": "https://github.com/openbiox/XenaShiny",
         "value": 4.5,
-        "isAnnual": true
-    },
-    {
-        "name": "Cookbook4r",
-        "intro": "One R book translation project (EN->CN)",
-        "src": "https://s2.ax1x.com/2019/05/28/VekXH1.png",
-        "href": "https://github.com/openbiox/Cookbook-for-R-Chinese",
-        "value": 5,
         "isAnnual": true
     },
     {
