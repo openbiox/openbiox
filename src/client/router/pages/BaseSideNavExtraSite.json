@@ -8,6 +8,12 @@
       ]
     },
     {
+      "name":"Books", "icon": "library_books", 
+      "subItems": [
+        {"name": "Cookbook-for-R-Chinese", "href": "https://openbiox.org/books/Cookbook-for-R-Chinese/", "target":"_blank"}
+      ]
+    },
+    {
       "name":"Scholar search", "icon": "school", 
       "subItems": [
         {"name": "PubMed", "href": "https://www.ncbi.nlm.nih.gov/pubmed/", "target":"_blank"},
