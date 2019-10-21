@@ -12,15 +12,16 @@
     "start": "set NODE_ENV=production && set VUE_CLI_BABEL_TRANSPILE_MODULES=true && node index"
   },
   "dependencies": {
-    "core-js": "^2.6.5",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
+    "core-js": "^2.6.5",
     "cors": "^2.8.5",
     "cpu-stat": "^2.0.1",
     "cropperjs": "^1.4.3",
     "express": "^4.17.1",
     "express-jwt": "^5.3.1",
     "express-session": "^1.16.1",
+    "file-saver": "^2.0.2",
     "json2csv": "^4.5.1",
     "lodash": "^4.17.11",
     "marked": "^0.6.2",
