@@ -9,20 +9,6 @@
         <v-project-card title="openbiox projects (free)" :items="freeProjects"/>
       </v-container>
     </v-item-group>
-    <v-container>
-      <h2 style="text-align:center">Projects calender</h2>
-      <v-divider></v-divider>
-      <br>
-      <br>
-      <v-project-calender/>
-      <br>
-      <br>
-      <v-layout>
-        <v-flex md12>
-          <v-project-publications/>
-        </v-flex>
-      </v-layout>
-    </v-container>
   </div>
 </template>
 
@@ -30,9 +16,7 @@
 import projectsData from '@/assets/data/projects/projects.json'
 export default {
   components: {
-    'v-project-card': () => import('@/components/projects/ProjectItemsCard.vue'),
-    'v-project-calender': () => import('@/components/projects/ProjectCalender.vue'),
-    'v-project-publications': () => import('@/components/projects/ProjectPublications.vue')
+    'v-project-card': () => import('@/components/projects/ProjectItemsCard.vue')
   },
   data () {
     return {
