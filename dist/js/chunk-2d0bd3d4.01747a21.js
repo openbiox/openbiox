@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0bd3d4"],{"2ac2":function(e){e.exports={"/home":"Home","/members":"Members","/projects":"Projects","/news_events":"News & Events","https://community.openbiox.org":"Community","/wiki":"Wiki","/contact":"Contact Us"}}}]);
+//# sourceMappingURL=chunk-2d0bd3d4.01747a21.js.map

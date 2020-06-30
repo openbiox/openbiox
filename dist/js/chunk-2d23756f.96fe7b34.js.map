@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/client/assets/logo-routate.png"],"names":["module","exports","__webpack_require__","p"],"mappings":"mGAAAA,EAAAC,QAAiBC,EAAAC,EAAuB","file":"js/chunk-2d23756f.96fe7b34.js","sourcesContent":["module.exports = __webpack_public_path__ + \"img/logo-routate.71dff3a1.png\";"],"sourceRoot":""}
