@@ -7,3 +7,6 @@
 [submodule "dist/tools/sra-explorer"]
 	path = dist/tools/sra-explorer
 	url = https://github.com/ewels/sra-explorer
+[submodule "src/wiki"]
+	path = src/wiki
+	url = git@github.com:openbiox/wiki
