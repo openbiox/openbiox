@@ -10,7 +10,7 @@
     "docs:build": "vuepress build docs/docs",
     "docs:dev": "vuepress dev docs/docs",
     "start": "set NODE_ENV=production && set VUE_CLI_BABEL_TRANSPILE_MODULES=true && node index",
-    "pub": "chmod -R o+rx dist/* && rsync -avzP dist/ openbiox@openbiox.org:/var/www/openbiox/"
+    "pub": "chmod -R o+rx docs/*"
   },
   "dependencies": {
     "axios": "^0.19.0",
