@@ -36,4 +36,4 @@ yarn lint
 
 ## LICENSE
 
-License fee is required. Free for openbiox members.
+Academic Free License version 3.0
