@@ -40,6 +40,14 @@
         "isAnnual": true
     },
     {
+        "name": "hiplot",
+        "intro": "Visualization of Scientific Data.",
+        "src": "https://s1.ax1x.com/2020/06/01/tJfxsS.png",
+        "href": "https://hiplot.com.cn",
+        "value": 5,
+        "isAnnual": true
+    },
+    {
         "name": "playcloud",
         "intro": "Just for fun on 'cloud'.",
         "src": "https://s2.ax1x.com/2019/05/28/VekPwq.jpg",
@@ -166,5 +174,21 @@
         "href": "https://github.com/kaigu1990/siGSEA",
         "value": 4,
         "isAnnual": false
+    },
+    {
+        "name": "bioextr",
+        "intro": "Extract information from text.",
+        "src": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=279375686,3789972975&fm=26&gp=0.jpg",
+        "href": "https://github.com/openanno/bioextr",
+        "value": 4.5,
+        "isAnnual": true
+    },
+    {
+        "name": "bioctl",
+        "intro": "Command line util functions.",
+        "src": "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1357518075,2207145940&fm=26&gp=0.jpg",
+        "href": "https://github.com/openanno/bioctl",
+        "value": 4.5,
+        "isAnnual": true
     }
 ]
