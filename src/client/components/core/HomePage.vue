@@ -66,6 +66,7 @@
     </v-container>
   </div>
 </template>
+
 <script>
 // import Echarts from '@/components/Echarts'
 export default {
