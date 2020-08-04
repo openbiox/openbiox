@@ -1,1 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d23756f"],{fb63:function(o,n,p){o.exports=p.p+"img/logo-routate.71dff3a1.png"}}]);

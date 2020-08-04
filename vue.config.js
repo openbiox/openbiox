@@ -2,6 +2,23 @@ const CompressionWebpackPlugin = require('compression-webpack-plugin')
 const productionGzipExtensions = ['js', 'css', 'svg']
 const isProduction = process.env.NODE_ENV === 'production'
 const path = require('path')
+const cdn = {
+  js: {
+    preload: [
+      'https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.min.js',
+      'https://cdn.jsdelivr.net/npm/vuetify@1.x/dist/vuetify.min.js',
+      'https://cdn.jsdelivr.net/npm/vue-router@3.x/dist/vue-router.min.js',
+      'https://cdn.jsdelivr.net/npm/vuex@3.x/dist/vuex.min.js'
+    ]
+  }
+}
+
+var externals = {
+  'vue-router': 'VueRouter',
+  'vuex': 'Vuex',
+  'vue': 'Vue',
+  'vuetify': 'Vuetify'
+}
 
 function resolve (dir) {
   return path.join(__dirname, '.', dir)
@@ -42,8 +59,31 @@ module.exports = {
       .loader('url-loader')
       .end()
 
+    config.plugin('html')
+      .tap(args => {
+        if (isProduction) {
+          args[0].cdn = cdn
+        }
+        return args
+      })
+
   },
   configureWebpack: config => {
+    config.performance = {
+      hints: 'warning',
+      maxEntrypointSize: 50000000,
+      maxAssetSize: 30000000,
+      assetFilter: function (assetFilename) {
+        return assetFilename.endsWith('.js')
+      }
+    }
+    config.optimization = {
+      runtimeChunk: true,
+      splitChunks: {
+        minSize: 10000,
+        maxSize: 250000
+      }
+    }
     if (isProduction) {
       config.plugins.push(new CompressionWebpackPlugin({
         algorithm: 'gzip',
@@ -51,9 +91,27 @@ module.exports = {
         threshold: 10240,
         minRatio: 0.8
       }))
-      config.externals = {
-        'echarts': 'echarts'
-      }
+      const TerserPlugin = require('terser-webpack-plugin')
+      config.optimization.minimizer = [
+        new TerserPlugin({
+          parallel: true,
+          extractComments: false,
+          terserOptions: {
+            warnings: false,
+            parse: {},
+            compress: {
+              unused: true,
+              drop_console: true,
+              drop_debugger: true,
+              pure_funcs: ['console.log'] // 移除console
+            },
+            output: {
+              comments: false
+            }
+          },
+        })
+      ]
+      config.externals = externals
     }
   },
 
