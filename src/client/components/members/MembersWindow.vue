@@ -46,7 +46,7 @@ export default {
       ' ',
       ' ',
       ' ',
-      'Current (n=69)',
+      'Current (n=82)',
       ' ',
       ' ',
       ' ',
