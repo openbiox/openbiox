@@ -16,9 +16,9 @@
       <a class="memberHref" v-if="member" :href="member.href" target="_blank">
         <v-hover>
           <v-card
-            style="min-height:345px;padding:20px"
+            style="min-height:345px;padding:20px;border-radius:5px"
             slot-scope="{ hover }"
-            :class="`elevation-${hover ? 19 : 4}`"
+            :class="`elevation-${hover ? 5 : 0}`"
           >
             <div class="about_me_top mainText">
               <img class="img-circle" :src="member.avater" alt="image" width="140" height="140">

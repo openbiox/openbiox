@@ -14,7 +14,7 @@
               <v-card
                 slot-scope="{ active, toggle }"
                 :color="active ? 'gray' : ''"
-                :class="`elevation-${hover ? 24 : 2}`"
+                :class="`elevation-${hover ? 9 : 3}`"
                 class="d-flex align-center"
                 dark
                 height="98%"

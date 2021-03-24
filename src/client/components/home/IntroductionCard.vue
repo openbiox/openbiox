@@ -4,12 +4,14 @@
       <v-hover>
         <v-card
           slot-scope="{ hover }"
-          :class="`elevation-${hover ? 24 : 2}`"
+          :class="`elevation-${hover ? 9 : 3}`"
+          style="border-radius:5px"
         >
           <v-img
             :src="src"
             :height="height"
             width="100%"
+            style="border-radius:5px"
           >
           </v-img>
 

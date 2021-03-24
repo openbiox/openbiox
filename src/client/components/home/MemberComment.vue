@@ -5,14 +5,15 @@
   >
     <br/>
     <h2 class="display-1 font-weight-bold blue-color">
+      <br/>
               Comments
     </h2>
-    <v-divider />
-    <br/>
+    <hr/>
       <v-expansion-panel
         popout
         dark
         focusable
+        style="background-color:#fff;padding:10px;border-radius:5px;box-shadow:0px 0px 5px #eee;"
       >
         <v-expansion-panel-content
           v-for="(message, i) in messages"

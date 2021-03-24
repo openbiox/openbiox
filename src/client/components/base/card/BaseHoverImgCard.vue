@@ -4,7 +4,8 @@
       <v-hover>
         <v-card
           slot-scope="{ hover }"
-          :class="`elevation-${hover ? 12 : 4}`"
+          :class="`elevation-${hover ? 5 : 0}`"
+          style="border-radius:5px"
         >
           <a :href="item.href" target="_blank">
             <v-img
@@ -13,6 +14,7 @@
               class="white--text"
               height="350"
               width="100%"
+              style="border-radius:5px"
             ></v-img>
           </a>
           <v-card-title>

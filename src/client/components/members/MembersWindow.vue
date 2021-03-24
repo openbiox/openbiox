@@ -1,6 +1,7 @@
 <template>
   <v-card
     class="mt-3 mx-auto"
+    style="border-radius:10px"
   >
     <v-sheet
       class="v-sheet--offset mx-auto"
@@ -19,7 +20,7 @@
 
     <v-card-text class="pt-0">
       <div class="title font-weight-light mb-2">Increase of members</div>
-      <div class="subheading font-weight-light grey--text">openbiox</div>
+      <div class="subheading font-weight-light grey--text">OpenOioX Community</div>
       <v-divider class="my-2"></v-divider>
       <v-icon
         class="mr-2"

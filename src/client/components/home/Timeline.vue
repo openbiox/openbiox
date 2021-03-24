@@ -2,7 +2,7 @@
   <v-timeline>
     <v-timeline-item v-for="(time, key) in timeLine" :key="key" color="grey darken-2" large>
       <span slot="opposite" class="timeline-text timeline-text-time">{{ time.year }}</span>
-      <v-card class="elevation-2">
+      <v-card class="elevation-2" style="border-radius:5px;">
         <v-card-text class="timeline-text">{{ time.text }}</v-card-text>
       </v-card>
     </v-timeline-item>

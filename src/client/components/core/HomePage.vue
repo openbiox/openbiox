@@ -33,7 +33,8 @@
           height="350"
           src="https://s2.ax1x.com/2019/04/22/EAKu59.jpg"
           slot-scope="{ hover }"
-          :class="`elevation-${hover ? 24 : 2}`"
+          :class="`elevation-${hover ? 5 : 0}`"
+          style="border-radius:5px"
         >
           <v-layout
             align-center

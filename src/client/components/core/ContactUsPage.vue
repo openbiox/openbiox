@@ -18,7 +18,7 @@
           <br>
         </v-flex>
         <v-flex md12>
-          <form>
+          <form style="background-color:#fff;padding:30px;box-shadow:0px 0px 3px #eee;border-radius:10px">
             <v-text-field
               v-model="name"
               :error-messages="nameErrors"

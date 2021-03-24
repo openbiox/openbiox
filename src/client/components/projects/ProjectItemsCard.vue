@@ -10,7 +10,8 @@
       <v-hover>
         <v-card
           slot-scope="{ hover }"
-          :class="`elevation-${hover ? 12 : 2}`"
+          :class="`elevation-${hover ? 5 : 1}`"
+          style="border-radius:10px"
           :href="item.href"
           target="_blank"
           width="100%"

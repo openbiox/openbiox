@@ -44,7 +44,7 @@
       :color="item.color"
       dark
       max-width="100%"
-      style="margin:40px"
+      style="margin:40px;border-radius:5px"
     >
       <v-card-title>
         <span class="headline">{{ item.title }}</span>
