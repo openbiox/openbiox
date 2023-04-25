@@ -28,7 +28,7 @@
     },
     {
       "name": "Community",
-      "href": "https://community.openbiox.org",
+      "href": "https://matrix.to/#/#openbiox:gitter.im",
       "useRoutes": false,
       "sectionName": "community"
     },

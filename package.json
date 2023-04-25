@@ -13,6 +13,7 @@
     "pub": "chmod -R o+rx docs/*"
   },
   "dependencies": {
+    "acorn": "^6.4.1",
     "axios": "^0.19.0",
     "body-parser": "^1.19.0",
     "core-js": "^2.6.5",
@@ -21,8 +22,10 @@
     "cropperjs": "^1.4.3",
     "file-saver": "^2.0.2",
     "json2csv": "^4.5.1",
+    "kind-of": "^6.0.3",
     "lodash": "^4.17.11",
     "marked": "^0.6.2",
+    "minimist": "^1.2.3",
     "moment": "^2.24.0",
     "morgan": "^1.9.0",
     "multer": "^1.4.1",
@@ -33,9 +36,6 @@
     "rimraf": "^2.6.3",
     "sequelize": "^5.15.1",
     "serialize-javascript": "^2.1.1",
-    "kind-of": "^6.0.3",
-    "acorn": "^6.4.1",
-    "minimist": "^1.2.3",
     "serve-favicon": "^2.4.5",
     "string_decoder": "^1.2.0",
     "unique-filename": "^1.1.1",
